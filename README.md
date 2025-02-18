@@ -23,9 +23,9 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=tokyonight&hide_border=true&card_width=300&scale=0.8)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&rank_icon=github)
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=MGross21&theme=tokyonight&hide_border=true&card_width=300&scale=0.8)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&layout=compact&theme=tokyonight&hide_border=true&card_width=300&scale=0.8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&layout=compact&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&langs_count=12&hide=jupyter+notebook)
 [![trophy](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark&column=4&margin-w=5&margin-h=5)](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark)
 
 ## 🌱 Current Projects
