@@ -34,10 +34,21 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 - Designed to Streamline Concept-to-Simulation for High-Paced Classroom Environments\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=MjWrapper)](https://github.com/MGross21/MjWrapper)
 
-### [FIRST Tech Challenge (FTC) Kotlin Template](https://github.com/MGross21/FTC-Core-Controller)
-- Development of a `Github Template` to streamline control systems and state machine coding architecture
-- Reduce the skill floor for new coders and provide a professional example for proper standards: one-direction flow, singleton, etc. \
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=FTC-Core-Controller)](https://github.com/MGross21/FTC-Core-Controller)
+### [KURCIVE](https://github.com/MGross21/kurcive)
+_Pronouced "Cursive"_
+- Development of a `Github Template` to:
+  - Streamline Control System Flow
+  - State Machine Development (Core, Subsystems, Entire System Management)
+  - Path Planning, Localization, Sensor Fusion
+  - Provide better debugging tools
+  - Partial & Full System Tests to Shakedown Robotic Systems
+- Targets FIRST Tech Challenge Robotics Teams in Highschool
+- Reduce the skill floor for new coders and provide a professional example for proper standards:
+  - One-Way Flow (Interfaces, Inheritance, Abstraction Templates)
+  - Singleton
+  - etc.
+    \
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=kurcive)](https://github.com/MGross21/kurcive)
 
 ### [Analytical Robotic Evaluation Service (ARES) Discord Bot](https://github.com/ARES-Digital-Hub/ARES-Bot)
 - Custom Python Object Oriented Programming (OOP) Architecture to utilize the FIRST FTC API
