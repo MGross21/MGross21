@@ -30,7 +30,7 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 
 ## 🌱 Current Projects
 
-### [Mujoco-Tools](https://github.com/MGross21/mujoco-toolbox)
+### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 - Designed to Streamline Concept-to-Simulation for High-Paced Classroom Environments\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=mujoco-toolbox)](https://github.com/MGross21/mujoco-toolbox)
 
