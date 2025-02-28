@@ -30,9 +30,9 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 
 ## 🌱 Current Projects
 
-### [MjWrapper](https://github.com/MGross21/MjWrapper)
+### [Mujoco-Tools](https://github.com/MGross21/mujoco-toolbox)
 - Designed to Streamline Concept-to-Simulation for High-Paced Classroom Environments\
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=MjWrapper)](https://github.com/MGross21/MjWrapper)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=mujoco-toolbox)](https://github.com/MGross21/mujoco-toolbox)
 
 ### [KURCIVE](https://github.com/MGross21/kurcive)
 _Pronouced "Cursive"_
