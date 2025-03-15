@@ -14,6 +14,7 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 <!--![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)-->
 <!--![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)-->
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&custom_title=Local%20Repositories&layout=compact&theme=tokyonight&hide_border=true&card_width=300&scale=1.2&langs_count=12&hide=jupyter+notebook)
 
 ## 🧰🛠️ Currently Developing with
 ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
@@ -24,29 +25,32 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&rank_icon=github)
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=MGross21&theme=tokyonight&hide_border=true&card_width=300&scale=0.8)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&layout=compact&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&langs_count=12&hide=jupyter+notebook)
-[![trophy](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark&column=4&margin-w=5&margin-h=5)](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark)
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=MGross21&theme=tokyonight&hide_border=true&card_width=400&scale=1)
+<!--[![trophy](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark&column=4&margin-w=5&margin-h=5)](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark)-->
 
 ## 🌱 Current Projects
 
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
-- Designed to Streamline Concept-to-Simulation for High-Paced Classroom Environments\
+- Designed to Streamline Concept-to-Simulation
+- Applications for:
+  - Reinforcement Learning
+  - Digital Twins
+  - High-Paced Classroom Environments\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=mujoco-toolbox)](https://github.com/MGross21/mujoco-toolbox)
 
 ### [KURCIVE](https://github.com/MGross21/kurcive)
-_Pronouced "Cursive"_
+_Pronounced "Cursive"_
 - Development of a `Github Template` to:
   - Streamline Control System Flow
   - State Machine Development (Core, Subsystems, Entire System Management)
   - Path Planning, Localization, Sensor Fusion
   - Provide better debugging tools
   - Partial & Full System Tests to Shakedown Robotic Systems
-- Targets FIRST Tech Challenge Robotics Teams in Highschool
+- Targets FIRST Tech Challenge Robotics Teams in High School
 - Reduce the skill floor for new coders and provide a professional example for proper standards:
   - One-Way Flow (Interfaces, Inheritance, Abstraction Templates)
   - Singleton
-  - etc.
+  - and Many More...
     \
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=kurcive)](https://github.com/MGross21/kurcive)
 
