@@ -83,7 +83,7 @@ _Pronounced "Cursive"_
 
 ### [OpenCV 6DoF Object Pose Detection](https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer)
 
-<img src="https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer/raw/main/Images/detected_markers_with_axis.png" alt="ArUco Tag Detection" width="400">
+<img src="https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer/raw/main/Images/detected_markers_with_axis.png" alt="ArUco Tag Detection" width="400"><img src="https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer/raw/main/Images/Box9.png" alt="Mesh" width="350">
 
 
 - Utilized Standardized Fucial, ArUco, Tag Markers to determine the x, y, z, roll, pitch and, yaw of introduced objects
