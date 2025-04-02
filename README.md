@@ -31,12 +31,16 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 ## 🌱 Current Projects
 
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
+
+<img src="https://github.com/user-attachments/assets/da01ff87-fa22-49ee-8476-693fbcf5949b" alt="Human In A Box" width="300">
+
 - Designed to Streamline Concept-to-Simulation
 - Applications for:
   - Reinforcement Learning
   - Digital Twins
   - High-Paced Classroom Environments\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=mujoco-toolbox)](https://github.com/MGross21/mujoco-toolbox)
+
 
 ### [KURCIVE](https://github.com/MGross21/kurcive)
 _Pronounced "Cursive"_
@@ -55,25 +59,43 @@ _Pronounced "Cursive"_
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=kurcive)](https://github.com/MGross21/kurcive)
 
 ### [Analytical Robotic Evaluation Service (ARES) Discord Bot](https://github.com/ARES-Digital-Hub/ARES-Bot)
+[**Invite ARES Bot**](https://discord.com/oauth2/authorize?client_id=1327489137238081566&permissions=551903488064&integration_type=0&scope=applications.commands+bot)
 - Custom Python Object Oriented Programming (OOP) Architecture to utilize the FIRST FTC API
 - Custom Least Square Error (LSE) Implementation of Community Metric, Offensive Power Ranking (OPR)
 - Slash Command Integration into Social Chat Platform, `Discord`\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ARES-Digital-Hub&repo=ARES-Bot)](https://github.com/ARES-Digital-Hub/ARES-Bot)
 
+
+
+
 ## ⭐ Completed Projects
 ### [Five Bar Linkage Foldable Robotic Jumping Frog](https://github.com/MGross21/Robotic-Jumping-Frog)
+
+<img src="https://github.com/MGross21/Robotic-Jumping-Frog/raw/master/Videos/Final_Results_GIF.gif" alt="Sim-vs-Real" width="500">
+
 - Completed as Part of ASU's Foldable Robotics Final Project
 - Experimental Approach to Solve for Material and Motor Characteristics (ie. Stiffness, Damping, Torque, Rotational Velocity)
 - Rapid and Cost Effective Manufacturing Methods to Develop Final Product
 - Non-Linear Optimization through MuJuCo Simulation tools and Python Libraries\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=Robotic-Jumping-Frog)](https://github.com/MGross21/Robotic-Jumping-Frog)
 
+
+
 ### [OpenCV 6DoF Object Pose Detection](https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer)
+
+<img src="https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer/raw/main/Images/detected_markers_with_axis.png" alt="ArUco Tag Detection" width="400">
+
+
 - Utilized Standardized Fucial, ArUco, Tag Markers to determine the x, y, z, roll, pitch and, yaw of introduced objects
 - Per-ID Dynamic Mesh Generation used for AR environment reproduction\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=ArucoCV-6DoF-MeshVisualizer)](https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer)
 
 ### [Edge Mapping Research](https://github.com/MGross21/EdgeMappingResearchProject)
+
+<img src="https://github.com/MGross21/EdgeMappingResearchProject/blob/main/Results/bicycleresults.png?raw=true" alt="Detection Results" width="300">
+
+
+
 - Trained a Custom CNN Neural Network, AlexNet, with over 60k Images
 - Evaluated Canny, Sobel, and Roberts Cross Matrix Filters in their Object Detection Confidence of Standard Road Objects: Truck, Car, Bicyclist, Pedestrian, and Road Signs\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=EdgeMappingResearchProject)](https://github.com/MGross21/EdgeMappingResearchProject)
