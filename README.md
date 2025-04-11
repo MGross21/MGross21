@@ -1,6 +1,6 @@
 # Hello there 👋
 ## 🤖🚀 About Me
-I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Arizona State University pursuing control systems, physics-based simulation tools, and robotic deployment.
+I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Arizona State University. I am pursuing control systems, physics-based simulation tools, and robotic deployment.
 
 ## 🗣️ Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -41,6 +41,16 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
   - High-Paced Classroom Environments\
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=mujoco-toolbox)](https://github.com/MGross21/mujoco-toolbox)
 
+### [Agnostic Robotic Controller](https://github.com/MGross21/agnostic-controller)
+
+<img src="https://github.com/user-attachments/assets/ec644be1-c40d-47e3-bc11-72c458d17004" alt="UR5 on Vention Plate" width="300">
+<img src="https://github.com/user-attachments/assets/6ce46d87-f65c-4aac-9be7-a93e8d335b70" alt="Elephant myCobot Pro600" width="400">
+
+- Unifying Template Framework API
+- Controls Multiple Robotic Arms from Different OEM's
+- Applications for Multi-Robotic Control
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=agnostic-controller)](https://github.com/MGross21/agnostic-controller)
 
 ### [KURCIVE](https://github.com/MGross21/kurcive)
 _Pronounced "Cursive"_
