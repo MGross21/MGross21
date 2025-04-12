@@ -47,8 +47,8 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 <img src="https://github.com/user-attachments/assets/6ce46d87-f65c-4aac-9be7-a93e8d335b70" alt="Elephant myCobot Pro600" width="400">
 
 - Unifying Template Framework API
-- Controls Multiple Robotic Arms from Different OEM's
-- Applications for Multi-Robotic Control
+- Controls Multiple Robotic Arms from Different OEMs
+- Multi-Robotic Control Capabilities
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=MGross21&repo=agnostic-controller)](https://github.com/MGross21/agnostic-controller)
 
