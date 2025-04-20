@@ -31,11 +31,17 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 
 ## 🌱 Current Projects
 
+### [Digital Twin](https://github.com/MGross21/Agnostic-Digital-Twin-Robotic-Controller)
+- Combines [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox) and [Agnostic Controller](https://github.com/MGross21/agnostic-controller) into Digital Twin Application
+- YOLO Object Recognition
+- Custom UDP Pub/Sub Communication Framework
+
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
 <img src="https://github.com/user-attachments/assets/da01ff87-fa22-49ee-8476-693fbcf5949b" alt="Human In A Box" width="300">
 
 - Designed to Streamline Concept-to-Simulation
+- Installable `pip` package
 - Applications for:
   - Reinforcement Learning
   - Digital Twins
