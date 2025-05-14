@@ -1,0 +1,35 @@
+name: Compile and Deploy PDF
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install full LaTeX environment with latexmk
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-full latexmk
+
+      - name: Compile all LaTeX files
+        run: |
+          latexmk -pdf resume.tex
+          latexmk -pdf cv.tex
+
+      - name: Clean auxiliary files (optional but clean)
+        run: |
+          latexmk -c
+
+      - name: Deploy PDFs to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: .
+          force_orphan: true
