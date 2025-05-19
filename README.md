@@ -1,15 +1,18 @@
 # Hello there 👋
 ## 🤖🚀 About Me
-I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Arizona State University. I am pursuing control systems, physics-based simulation tools, and robotic deployment.
+I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State University, focused on bridging the gap between simulation and real-world deployment. My work centers on control systems, digital twins, and multi-robot architectures. This collection of repositories features tools that are designed to be intuitive and accessible, making them well-suited for learning, teaching, and helping new programmers get started in robotics.
 
 ## 🗣️ Languages
+<!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white)
+<!--![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)-->
 <!--![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)-->
 <!--![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)-->
 <!--![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)-->
@@ -23,6 +26,8 @@ I am a Robotics and Autonomous Systems (RAS) Engineering Master's student at Ari
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)
 
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&rank_icon=github)
@@ -71,10 +76,14 @@ _Pronounced "Cursive"_
   - and Many More...
 
 ### [Analytical Robotic Evaluation Service (ARES) Discord Bot](https://github.com/ARES-Digital-Hub/ARES-Bot)
-[**Invite ARES Bot**](https://discord.com/oauth2/authorize?client_id=1327489137238081566&permissions=551903488064&integration_type=0&scope=applications.commands+bot)
+
+**Invite ARES Bot:**
+
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1327489137238081566&permissions=551903488064&integration_type=0&scope=applications.commands+bot)
 - Custom Python Object Oriented Programming (OOP) Architecture to utilize the FIRST FTC API
 - Custom Least Square Error (LSE) Implementation of Community Metric, Offensive Power Ranking (OPR)
 - Slash Command Integration into Social Chat Platform, `Discord`
+- iOS App Currently in Closed-Beta Release
 
 
 
@@ -101,8 +110,10 @@ _Pronounced "Cursive"_
 <img src="https://github.com/MGross21/EdgeMappingResearchProject/blob/main/Results/bicycleresults.png?raw=true" alt="Detection Results" width="300">
 
 - Trained a Custom CNN Neural Network, AlexNet, with over 60k Images
-- Evaluated Canny, Sobel, and Roberts Cross Matrix Filters in their Object Detection Confidence of Standard Road Objects: Truck, Car, Bicyclist, Pedestrian, and Road Signs\
+- Evaluated Canny, Sobel, and Roberts Cross Matrix Filters in their Object Detection Confidence of Standard Road Objects: Truck, Car, Bicyclist, Pedestrian, and Road Signs
 
 ## 🤝 Let's Connect!
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mhgross/)
+
+<!--![visitors](https://visitor-badge.laobi.icu/badge?page_id=MGross21.MGross21)-->
 <!--[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourportfolio.com)-->
