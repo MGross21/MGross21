@@ -43,7 +43,7 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
-<img src="https://github.com/user-attachments/assets/da01ff87-fa22-49ee-8476-693fbcf5949b" alt="Human In A Box" width="300">
+<img src="https://github.com/user-attachments/assets/1193a03d-f307-4b6c-a157-45401bc9e612" alt="UR5 on Vention" width="300">
 
 - Designed to Streamline Concept-to-Simulation
 - Installable `pip` package
