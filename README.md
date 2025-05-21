@@ -36,8 +36,8 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 
 ## 🌱 Current Projects
 
-### [Digital Twin](https://github.com/MGross21/Agnostic-Digital-Twin-Robotic-Controller)
-- Combines [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox) and [Agnostic Controller](https://github.com/MGross21/agnostic-controller) into Digital Twin Application
+### [Glovebox Digital Twin](https://github.com/MGross21/glovebox-digitaltwin)
+- Combines [mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox) and [armctl](https://github.com/MGross21/armctl) into Constrained Digital Twin Application
 - YOLO Object Recognition
 - Custom UDP Pub/Sub Communication Framework
 
@@ -52,7 +52,7 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
   - Digital Twins
   - High-Paced Classroom Environments
 
-### [Agnostic Robotic Controller](https://github.com/MGross21/agnostic-controller)
+### [armctl](https://github.com/MGross21/armctl)
 
 <img src="https://github.com/user-attachments/assets/ec644be1-c40d-47e3-bc11-72c458d17004" alt="UR5 on Vention Plate" width="300">
 <img src="https://github.com/user-attachments/assets/6ce46d87-f65c-4aac-9be7-a93e8d335b70" alt="Elephant myCobot Pro600" width="400">
