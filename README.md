@@ -42,7 +42,7 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
-**Install it on:**
+**Install it from**
 
 [![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/mujoco-toolbox/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MGross21/mujoco-toolbox)
@@ -57,7 +57,7 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 
 ### [armctl](https://github.com/MGross21/armctl)
 
-**Install it on:**
+**Install it from**
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MGross21/armctl)
 
