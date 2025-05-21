@@ -45,6 +45,7 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 **Install it on:**
 
 [![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/mujoco-toolbox/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MGross21/mujoco-toolbox)
 
 <img src="https://github.com/user-attachments/assets/1193a03d-f307-4b6c-a157-45401bc9e612" alt="UR5 on Vention" width="300">
 
@@ -55,6 +56,10 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
   - High-Paced Classroom Environments
 
 ### [armctl](https://github.com/MGross21/armctl)
+
+**Install it on:**
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MGross21/armctl)
 
 <img src="https://github.com/user-attachments/assets/ec644be1-c40d-47e3-bc11-72c458d17004" alt="UR5 on Vention Plate" width="300">
 <img src="https://github.com/user-attachments/assets/6ce46d87-f65c-4aac-9be7-a93e8d335b70" alt="Elephant myCobot Pro600" width="400">
