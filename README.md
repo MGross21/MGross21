@@ -27,7 +27,6 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
-![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)
 
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&rank_icon=github)
@@ -43,10 +42,13 @@ I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State Un
 
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
+**Install it on:**
+
+[![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/mujoco-toolbox/)
+
 <img src="https://github.com/user-attachments/assets/1193a03d-f307-4b6c-a157-45401bc9e612" alt="UR5 on Vention" width="300">
 
 - Designed to Streamline Concept-to-Simulation
-- Installable `pip` package
 - Applications for:
   - Reinforcement Learning
   - Digital Twins
