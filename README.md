@@ -1,6 +1,8 @@
 # Hello there 👋
 ## 🤖🚀 About Me
-I'm a Robotics and Autonomous Systems (RAS) Master's student at Arizona State University, focused on bridging the gap between simulation and real-world deployment. My work centers on control systems, digital twins, and multi-robot architectures. This collection of repositories features tools that are designed to be intuitive and accessible, making them well-suited for learning, teaching, and helping new programmers get started in robotics.
+I'm a Master's student in Robotics and Autonomous Systems (RAS) at Arizona State University, focused on bridging the gap between simulation and real-world deployment. My work emphasizes control systems, physics-based simulation, and the practical application of robotic systems.
+
+This repository collection includes tools that are intuitive and accessible, making them ideal for learning, teaching, and helping new programmers get started in robotics.
 
 ## 🗣️ Languages
 <!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
