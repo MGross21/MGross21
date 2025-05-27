@@ -4,7 +4,11 @@
 *.log
 *.out
 *.synctex.gz
+*.dvi
+
 *.pdf
+
+output/*
 
 reference/**
 .vscode/**
