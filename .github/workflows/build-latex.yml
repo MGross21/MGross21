@@ -21,6 +21,7 @@ jobs:
 
       - name: Compile all LaTeX files
         run: |
+          mkdir -p output
           latexmk -pdf -silent -f -outdir=output resume.tex
           latexmk -pdf -silent -f -outdir=output cv.tex
 

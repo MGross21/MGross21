@@ -1,24 +1,29 @@
-\documentclass[11pt]{article}
-\usepackage[a4paper,margin=1in]{geometry}
+\documentclass[10pt]{article}
+\usepackage[margin=0.7in]{geometry}
 \usepackage{enumitem, hyperref, titlesec, multicol}
-\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\section}{\bfseries\uppercase}{\thesection}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{0.5em}{0.5em}
 \setlist{noitemsep,topsep=0pt}
 
 \begin{document}
 
 \centerline{\LARGE\textbf{Michael Gross}}
-\centerline{\href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar{} (520) 419-9061 \textbar{} Gilbert, AZ}
-\centerline{\href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar{} \href{https://github.com/MGross21}{github.com/MGross21}}
+\centerline{\href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar{} (520) 419-9061 \textbar{} Gilbert, AZ \textbar{} \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar{} \href{https://github.com/MGross21}{github.com/MGross21}}
 
+\vspace{-0.5em}
 \section*{Research Interests}
-\begin{itemize}
-  \item Autonomous Exploration Systems
-  \item Sensor Fusion and Localization
-  \item Reconfigurable and Multi-Robotic Systems
-  \item Physics Simulation
-  \item Control Systems Design and Optimization
-  \item Dynamic Motion Planning
-\end{itemize}
+\vspace{-0.7em}
+\begin{multicols}{2}
+  \begin{itemize}[leftmargin=1.2em]
+    \item Autonomous Exploration Systems
+    \item Sensor Fusion and Localization
+    \item Reconfigurable and Multi-Robotic Systems
+    \item Physics Simulation
+    \item Control Systems Design and Optimization
+    \item Dynamic Motion Planning
+  \end{itemize}
+\end{multicols}
+\vspace{-0.7em}
 
 \section*{Education}
 \textbf{Arizona State University}, Mesa, AZ\\
@@ -31,70 +36,67 @@ B.S.E. in Robotics Engineering, Minor in Applied Mathematics \hfill Aug 2020 -- 
 
 \section*{Research Experience}
 \textbf{Robotic Agnostic Digital Twin with Camera-Based Validation} \hfill Aug 2024 -- Present\\
-Robotic arm sim, CV, path planning, pose correction\\Advisor: Dr. Binil Starly; Sponsor: LANL
-
+\hspace*{2em}Robotic arm sim, CV, path planning, pose correction\\
+\hspace*{2em}Sponsor: Los Alamos National Laboratory\\
+\hspace*{2em}Advisor: Dr. Binil Starly \\
 \textbf{Image Edge Mapping for Object Recognition} \hfill Aug -- Dec 2022\\
-Image datasets, CNN training, accuracy benchmarking\\Advisor: Dr. Michelle Zandieh
+\hspace*{2em}Image datasets, CNN training, accuracy benchmarking\\Advisor: Dr. Michelle Zandieh
 
 \section*{Professional Experience}
 \textbf{R\&D Intern}, Precision Planting (AGCO), Fargo, ND \hfill May -- Aug 2024\\
-Embedded systems, field testing, data collection and analysis
-
+\hspace*{2em}Embedded systems, field testing, data collection and analysis\\
 \textbf{Head Counselor}, Camp IHC \hfill Summers 2018 -- 2023\\
-Logistics coordination, training facilitation, mentorship
+\hspace*{2em}Logistics coordination, training facilitation, mentorship
 
 \section*{Projects}
 \textbf{MuJoCo Toolbox (GitHub)} \hfill Aug 2024 -- Present\\
-Published Python package for simulation wrapping and automation
-
+\hspace*{2em}Published Python package for simulation wrapping and automation
+\\
 \textbf{Turtlebot4 Predator-Prey Model} \hfill Jan 2025 -- Present\\
-ROS2 development, SLAM, CV, sensor fusion, algorithm design
-
+\hspace*{2em}ROS2 development, SLAM, CV, sensor fusion, algorithm design
+\\
 \textbf{Foldable Robotics Gait Reproduction} \hfill Aug -- Dec 2024\\
-MuJoCo simulations, limb-motion studies, material modeling
-
+\hspace*{2em}MuJoCo simulations, limb-motion studies, material modeling
+\\
 \textbf{Tilt-Up Window Automation} \hfill Aug 2023 -- May 2024\\
-Voice recognition, embedded design, capstone with Summit Automation
-
+\hspace*{2em}Voice recognition, embedded design, capstone with Summit Automation
+\\
 \textbf{Weather Sensing Umbrella} \hfill Jan -- May 2023\\
-2DOF control system, smart sensors, PCB design
-
+\hspace*{2em}2DOF control system, smart sensors, PCB design
+\\
 \textbf{Fleet Science Museum SCRAM Robot} \hfill Aug -- Dec 2022\\
-Interactive education exhibit using SCRAM mechanisms
-
+\hspace*{2em}Interactive education exhibit using SCRAM mechanisms
+\\
 \textbf{Reverse-Engineered Regenerative Braking} \hfill Jan -- May 2022\\
-Motorized mass system, microcontroller logic, sensory feedback
-
+\hspace*{2em}Motorized mass system, microcontroller logic, sensory feedback
+\\
 \textbf{Parking Sensor Retrofitting} \hfill Aug -- Dec 2021\\
-Optical sensors for individual spot detection and signage
-
+\hspace*{2em}Optical sensors for individual spot detection and signage
+\\
 \textbf{Automated Boom Arm Sprayer} \hfill Jan -- May 2021\\
-Ultrasonic ground detection, FSM logic, motor actuation
+\hspace*{2em}Ultrasonic ground detection, FSM logic, motor actuation
 
 \section*{Leadership and Activities}
 \textbf{FTC Mentor}, Catalina Foothills HS \hfill Aug 2022 -- Present\\
-Sensor fusion, localization, multi-threaded control
-
+\hspace*{2em}Sensor fusion, localization, multi-threaded control
+\\
 \textbf{Design \& Manufacturing Challenge (MR+A)} \hfill Oct 2024 -- Present\\
-Digital manufacturing innovation competition
-
+\hspace*{2em}Digital manufacturing innovation competition
+\\
 \textbf{FLL Mentor/Volunteer} \hfill Aug 2015 -- Present\\
-STEM mentorship, event volunteering
-
+\hspace*{2em}STEM mentorship, event volunteering
+\\
 \textbf{ASU Esports: Team Manager, Social Media Lead} \hfill Aug 2020 -- Present
-
+\\
 \textbf{Principled Innovation Academy} \hfill Feb -- May 2024\\
 Equity-based problem solving
-
+\\
 \textbf{Machine Learning Club} \hfill Jan -- Dec 2022
 
 \section*{Honors and Awards}
-\begin{itemize}
-  \item NSF GRFP (Pending)
-  \item Accelerated Master's Award, 2024 -- 25
-  \item Fulton Graduate Scholarship, 2024 -- 25
-  \item 7x Dean's List, ASU Ira A. Fulton Schools
-\end{itemize}
+\textbf{Accelerated Master's Award} \hfill AY 2024 -- 25\\
+\textbf{Fulton Graduate Scholarship} \hfill AY 2024 -- 25\\
+\textbf{Dean's List, ASU Ira A. Fulton School of Engineering} \hfill Fall 2020 -- Spring 2024
 
 \section*{Certifications}
 \textbf{UR Cobot eSeries (2023):} Core Track, Pro Track\\
@@ -107,7 +109,7 @@ Equity-based problem solving
 \textbf{Robotics Hardware:} UR Cobot, myCobot\\
 \textbf{Fabrication:} 3D Printing, Laser Cutting, Power Tools
 
-\section*{Media Mentions}
-\href{https://theeagleangle.blogspot.com/2014/12/foothills-lego-robotics-team-wins-azfll.html}{AZFLL State Competition Coverage, 2014}
-
+\section*{Media}
+\href{https://theeagleangle.blogspot.com/2014/12/foothills-lego-robotics-team-wins-azfll.html}{AZFLL State Competition Coverage, 2014}\\
+\href{https://www.linkedin.com/posts/school-of-manufacturing-systems-and-networks_asuengineering-design-robotics-activity-7324208506419453957-uM9B}{ASU Dream Competition Winner, 2025}
 \end{document}
