@@ -8,5 +8,8 @@ sudo apt install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-
 
 # Refresh Rendered Documents
 ```bash
-latexmk -pdf -outdir=output resume.tex -f -silent >> /dev/null;  latexmk -pdf -outdir=output cv.tex -f -silent >> /dev/null; rm output/*.{aux,fdb*,fls,log,out}
+mkdir -p output
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output resume.tex
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output cv.tex
+latexmk -c -outdir=output
  ```

@@ -31,16 +31,15 @@ jobs:
       - name: Compile all LaTeX files
         run: |
           mkdir -p output
-          latexmk -pdf -outdir=output resume.tex -f -silent >> /dev/null
-          latexmk -pdf -outdir=output cv.tex -f -silent >> /dev/null
+          latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output resume.tex
+          latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output cv.tex
 
           cat output/resume.log || true
           cat output/cv.log || true
 
       - name: Clean auxiliary files
         run: |
-          latexmk -c
-          rm -f output/*.{aux,log,out,toc,fls,fdb_latexmk}
+          latexmk -c -outdir=output
 
       # - name: Move PDFs to output directory
       #   run: |
