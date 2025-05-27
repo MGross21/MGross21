@@ -31,8 +31,8 @@ jobs:
       - name: Compile all LaTeX files
         run: |
           mkdir -p output
-          latexmk -pdf -outdir=output resume.tex
-          latexmk -pdf -outdir=output cv.tex
+          latexmk -pdf -outdir=output resume.tex -f -silent >> /dev/null
+          latexmk -pdf -outdir=output cv.tex -f -silent >> /dev/null
 
           cat output/resume.log || true
           cat output/cv.log || true
