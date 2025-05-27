@@ -1,15 +1,25 @@
 # Local Development
 
+This workflow uses Ubuntu/Debian Packages (WSL)
+
 ## Install Required Packages
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
+sudo apt install -y evince # PDF Viewer
 ```
 
-# Refresh Rendered Documents
+## Setup Bash Script
 ```bash
-mkdir -p output
-latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output resume.tex
-latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output cv.tex
-latexmk -c -outdir=output
- ```
+chmod +x ./render.sh
+```
+
+## Refresh Rendered Documents
+```bash
+./render.sh >> /dev/null
+```
+
+## Preview Externally
+```bash
+evince output/*.pdf
+```
