@@ -6,6 +6,9 @@ on:
       - '**/*.tex' # Trigger on changes to any .tex files
       - '**/*.yml' # Trigger on changes to any .yml files
 
+permissions:
+  contents: write
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
