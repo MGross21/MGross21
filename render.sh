@@ -4,7 +4,12 @@
 # It assumes that latexmk is installed and available in the PATH.
 
 # Make Output Directory
-mkdir -p output
+if [[ $(pwd) != */MGross21 ]]; then
+    echo "Error: Run this script from the MGross21 directory."
+    exit 1
+fi
+
+mkdir output
 
 # Compile LaTeX files to PDF
 latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output resume.tex
