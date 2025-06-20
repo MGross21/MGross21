@@ -6,7 +6,7 @@ This workflow uses Ubuntu/Debian Packages (WSL)
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y texlive-{latex-{recommended,extra},fonts} latexmk
+sudo apt install -y texlive-{latex-{recommended,extra},fonts-recommended} latexmk
 ```
 
 ## Setup Bash Script

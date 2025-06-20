@@ -9,7 +9,7 @@ if [[ $(pwd) != */MGross21 ]]; then
     exit 1
 fi
 
-mkdir output
+mkdir -p output # Make Dir. No error if it already exists
 
 # Compile LaTeX files to PDF
 latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output resume.tex
