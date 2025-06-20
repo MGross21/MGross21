@@ -6,8 +6,7 @@ This workflow uses Ubuntu/Debian Packages (WSL)
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
-sudo apt install -y evince # PDF Viewer
+sudo apt install -y texlive-{latex-{recommended,extra},fonts} latexmk
 ```
 
 ## Setup Bash Script
@@ -24,7 +23,11 @@ chmod +x ./render.sh
 
 ## Preview Externally
 
-If not directly available via IDE:
+If not directly available via IDE, download external pdf viewer:
+
+```bash
+sudo apt install -y evince
+```
 
 ```bash
 evince output/*.pdf
