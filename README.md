@@ -1,8 +1,12 @@
 # Hello there 👋
-## 🤖🚀 About Me
-I'm a Master's student in Robotics and Autonomous Systems (RAS) at Arizona State University, focused on bridging the gap between simulation and real-world deployment. My work emphasizes control systems, physics-based simulation, and the practical application of robotic systems.
+## 🤖 About Me
+I develop robotics software focused on bridging the gap between simulation and real-world deployment. My work emphasizes control systems, physics-based simulation, and practical robotics applications.
 
-This repository collection includes tools that are intuitive and accessible, making them ideal for learning, teaching, and helping new programmers get started in robotics.
+This repository collection includes tools designed to be intuitive and accessible — ideal for learning, teaching, and helping new programmers get started in robotics.
+
+I’m currently looking for opportunities with fast-paced robotics teams and companies building next-generation systems.
+
+[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://github.com/MGross21/MGross21/blob/gh-pages/cv.pdf)
 
 ## 🗣️ Languages
 <!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
