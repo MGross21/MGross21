@@ -6,7 +6,7 @@ This repository collection includes tools designed to be intuitive and accessibl
 
 I’m currently looking for opportunities with fast-paced robotics teams and companies building next-generation systems.
 
-[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://github.com/MGross21/MGross21/blob/gh-pages/cv.pdf)
+[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://github.com/MGross21/MGross21/blob/gh-pages/resume.pdf)
 
 ## 🗣️ Languages
 <!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
