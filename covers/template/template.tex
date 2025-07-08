@@ -1,0 +1,54 @@
+\documentclass[10pt]{letter}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\geometry{a4paper, margin=0.6in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.2pt}
+\renewcommand{\baselinestretch}{0.95}
+
+\definecolor{bannerblue}{RGB}{30,144,255}
+\definecolor{bannertext}{RGB}{255,255,255}
+
+\begin{document}
+
+\begin{letter}{}
+
+% Header Banner
+\begin{tcolorbox}[colback=bannerblue, colframe=bannerblue, boxrule=0pt, arc=0pt,
+    left=3pt, right=3pt, top=2pt, bottom=2pt, width=\textwidth, sharp corners]
+    \color{bannertext}\sffamily\large Job Role Title
+\end{tcolorbox}
+
+% Recipient box
+\vspace{0.3em}
+\begin{tcolorbox}[colback=white, colframe=bannerblue, boxrule=0.6pt, arc=2pt,
+    left=4pt, right=4pt, top=1pt, bottom=1pt, width=\textwidth]
+    \textbf{Company Name} \\ Address Line 1 \\ Address Line 2
+\end{tcolorbox}
+
+\vspace{0.8em}
+
+\opening{\textcolor{bannerblue}{Dear Hiring Manager,}}
+
+\vspace{0.5em}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur cursus, nisl nunc cursus nisi, euismod aliquam nunc nisl euismod. Etiam vitae cursus nunc. Mauris euismod, nisi eu cursus cursus, nunc nisl cursus nisi, euismod aliquam nunc nisl euismod.
+
+\vspace{0.5em}
+Suspendisse potenti. Proin cursus, nisi eu cursus cursus, nunc nisl cursus nisi, euismod aliquam nunc nisl euismod. Pellentesque euismod, nisi eu consectetur cursus, nisl nunc cursus nisi, euismod aliquam nunc nisl euismod.
+
+\vspace{0.5em}
+Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat.
+
+\vspace{0.6em}
+
+\closing{\textcolor{bannerblue}{Sincerely,}}
+
+\vspace{0.1em}
+
+{\color{bannerblue}\textbf{Your Name} \\ Your City, State ZIP \\ youremail@example.com \\ (555) 555-5555}
+
+\end{letter}
+
+\end{document}
