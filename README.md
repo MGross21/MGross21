@@ -1,12 +1,11 @@
 # Hello there 👋
 ## 🤖 About Me
-I develop robotics software focused on bridging the gap between simulation and real-world deployment. My work emphasizes control systems, physics-based simulation, and practical robotics applications.
+I develop robotics software with a strong emphasis on control systems, physics-based simulation, and real-world robotics applications. My work includes building intuitive, accessible tools that lower the barrier to entry for robotics, paired with meticulous, well-documented projects that demonstrate a high standard of quality and make it easy for others to learn, reproduce, and build upon.
 
-This repository collection includes tools designed to be intuitive and accessible — ideal for learning, teaching, and helping new programmers get started in robotics.
-
-I’m currently looking for opportunities with fast-paced robotics teams and companies building next-generation systems.
-
-[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://github.com/MGross21/MGross21/blob/gh-pages/resume.pdf)
+>[!Note]
+>**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**\
+>\
+>[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://github.com/MGross21/MGross21/blob/gh-pages/resume.pdf)
 
 ## 🗣️ Languages
 <!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
@@ -41,11 +40,6 @@ I’m currently looking for opportunities with fast-paced robotics teams and com
 
 ## 🌱 Current Projects
 
-### [Glovebox Digital Twin](https://github.com/MGross21/glovebox-digitaltwin)
-- Combines [mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox) and [armctl](https://github.com/MGross21/armctl) into Constrained Digital Twin Application
-- YOLO Object Recognition
-- Custom UDP Pub/Sub Communication Framework
-
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
 **Install it from**
@@ -74,6 +68,12 @@ I’m currently looking for opportunities with fast-paced robotics teams and com
 - Controls Multiple Robotic Arms from Different OEMs
 - Multi-Robotic Control Capabilities
 
+### [Pomodoro Timer (CLI)](https://github.com/MGross21/pomodoro-cli)
+<img src="https://github.com/MGross21/pomodoro-cli/blob/main/assets/videos/usage.gif" alt="Pomodoro Timer" width="500">
+
+- A time management tool based on the Pomodoro Technique
+- Developed in Rust (`1.3MB` in size)
+
 ### [KURCIVE](https://github.com/MGross21/kurcive)
 _Pronounced "Cursive"_
 - Development of a `Github Template` to:
@@ -93,21 +93,27 @@ _Pronounced "Cursive"_
 **Invite ARES Bot:**
 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1327489137238081566&permissions=551903488064&integration_type=0&scope=applications.commands+bot)
-- Custom Python Object Oriented Programming (OOP) Architecture to utilize the FIRST FTC API
-- Custom Least Square Error (LSE) Implementation of Community Metric, Offensive Power Ranking (OPR)
+- Custom Python Object Oriented Programming (OOP) Architecture to utilize the [FIRST FTC API](https://ftc-events.firstinspires.org/services/API)
+- Custom Least Squares Error (LSE) Implementation of Community Metric, Offensive Power Ranking (OPR)
 - Slash Command Integration into Social Chat Platform, `Discord`
 - iOS App Currently in Closed-Beta Release
 
 
-
 ## ⭐ Completed Projects
+
+### [Glovebox Digital Twin](https://github.com/MGross21/glovebox-digitaltwin)
+- Combines [mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox) and [armctl](https://github.com/MGross21/armctl) into Constrained Digital Twin Application
+- Completed as Part of a Master's Thesis at Arizona State University
+- YOLO Object Recognition and Tracking Pipeline
+- Custom UDP Pub/Sub Communication Framework
+
 ### [Five Bar Linkage Foldable Robotic Jumping Frog](https://github.com/MGross21/Robotic-Jumping-Frog)
 
 <img src="https://github.com/MGross21/Robotic-Jumping-Frog/raw/master/Videos/Final_Results_GIF.gif" alt="Sim-vs-Real" width="500">
 
-- Completed as Part of ASU's Foldable Robotics Final Project
+- Completed as Part of ASU's [Foldable Robotics](https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=86916&searchType=all&term=2247#detailsOpen=86916-131772) Final Project
 - Experimental Approach to Solve for Material and Motor Characteristics (ie. Stiffness, Damping, Torque, Rotational Velocity)
-- Rapid and Cost Effective Manufacturing Methods to Develop Final Product
+- Rapid and Cost-Effective Manufacturing Methods to Develop the Final Product
 - Non-Linear Optimization through MuJuCo Simulation tools and Python Libraries
 
 
