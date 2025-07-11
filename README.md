@@ -69,7 +69,7 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 - Multi-Robotic Control Capabilities
 
 ### [Pomodoro Timer (CLI)](https://github.com/MGross21/pomodoro-cli)
-<img src="https://github.com/MGross21/pomodoro-cli/blob/main/assets/videos/usage.gif" alt="Pomodoro Timer" width="500">
+<img src="https://raw.githubusercontent.com/MGross21/pomodoro-cli/main/assets/videos/usage.gif" alt="Pomodoro Timer" width="500">
 
 - A time management tool based on the Pomodoro Technique
 - Developed in Rust (`1.3MB` in size)
