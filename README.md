@@ -102,6 +102,9 @@ _Pronounced "Cursive"_
 ## ⭐ Completed Projects
 
 ### [Glovebox Digital Twin](https://github.com/MGross21/glovebox-digitaltwin)
+
+<img src="https://raw.githubusercontent.com/MGross21/glovebox-digitaltwin/main/assets/videos/dt.gif" alt="Digital Twin" width="500">
+
 - Combines [mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox) and [armctl](https://github.com/MGross21/armctl) into Constrained Digital Twin Application
 - Completed as Part of a Master's Thesis at Arizona State University
 - YOLO Object Recognition and Tracking Pipeline
