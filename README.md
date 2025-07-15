@@ -5,7 +5,7 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 >[!Note]
 >**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**\
 >\
->[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://github.com/MGross21/MGross21/blob/gh-pages/resume.pdf)
+>[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://mgross21.github.io/MGross21/resume.pdf)
 
 ## 🗣️ Languages
 <!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
