@@ -1,11 +1,17 @@
 # Hello there 👋
+
 ## 🤖 About Me
+
 I develop robotics software with a strong emphasis on control systems, physics-based simulation, and real-world robotics applications. My work includes building intuitive, accessible tools that lower the barrier to entry for robotics, paired with meticulous, well-documented projects that demonstrate a high standard of quality and make it easy for others to learn, reproduce, and build upon.
 
 >[!Note]
 >**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**\
 >\
 >[![Resume](https://img.shields.io/badge/Resume-PDF-blue.svg)](https://mgross21.github.io/MGross21/resume.pdf)
+
+<!-- ### Notable Open-Source Contributions
+
+[View Pull Requests & Contributions](https://github.com/search?q=author%3AMGross21+org%3AUniversalRobots&type=pullrequests) -->
 
 ## 🗣️ Languages
 <!--Badges Here: https://github.com/Ileriayo/markdown-badges -->
@@ -15,9 +21,9 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+<!-- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) -->
 ![Qiskit](https://img.shields.io/badge/Qiskit-%236929C4.svg?style=for-the-badge&logo=Qiskit&logoColor=white)
-<!--![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)-->
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 <!--![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)-->
 <!--![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)-->
 <!--![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)-->
@@ -26,6 +32,7 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&custom_title=Local%20Repositories&layout=compact&theme=tokyonight&hide_border=true&card_width=300&scale=1.2&langs_count=12&hide=jupyter+notebook)
 
 ## 🧰🛠️ Currently Developing with
+
 ![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -34,6 +41,7 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 
 ## 📊 GitHub Stats
+
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=tokyonight&hide_border=true&card_width=300&scale=0.8&rank_icon=github)
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=MGross21&theme=tokyonight&hide_border=true&card_width=400&scale=1)
 <!--[![trophy](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark&column=4&margin-w=5&margin-h=5)](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark)-->
@@ -75,7 +83,9 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 - Developed in Rust (`1.3MB` in size)
 
 ### [KURCIVE](https://github.com/MGross21/kurcive)
+
 _Pronounced "Cursive"_
+
 - Development of a `Github Template` to:
   - Streamline Control System Flow
   - State Machine Development (Core, Subsystems, Entire System Management)
@@ -93,11 +103,11 @@ _Pronounced "Cursive"_
 **Invite ARES Bot:**
 
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1327489137238081566&permissions=551903488064&integration_type=0&scope=applications.commands+bot)
+
 - Custom Python Object Oriented Programming (OOP) Architecture to utilize the [FIRST FTC API](https://ftc-events.firstinspires.org/services/API)
 - Custom Least Squares Error (LSE) Implementation of Community Metric, Offensive Power Ranking (OPR)
 - Slash Command Integration into Social Chat Platform, `Discord`
 - iOS App Currently in Closed-Beta Release
-
 
 ## ⭐ Completed Projects
 
@@ -119,7 +129,6 @@ _Pronounced "Cursive"_
 - Rapid and Cost-Effective Manufacturing Methods to Develop the Final Product
 - Non-Linear Optimization through MuJuCo Simulation tools and Python Libraries
 
-
 ### [OpenCV 6DoF Object Pose Detection](https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer)
 
 <img src="https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer/raw/main/Images/detected_markers_with_axis.png" alt="ArUco Tag Detection" width="400"><img src="https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer/raw/main/Images/Box9.png" alt="Mesh" width="350">
@@ -135,6 +144,7 @@ _Pronounced "Cursive"_
 - Evaluated Canny, Sobel, and Roberts Cross Matrix Filters in their Object Detection Confidence of Standard Road Objects: Truck, Car, Bicyclist, Pedestrian, and Road Signs
 
 ## 🤝 Let's Connect!
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mhgross/)
 
 <!--![visitors](https://visitor-badge.laobi.icu/badge?page_id=MGross21.MGross21)-->
