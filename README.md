@@ -7,7 +7,7 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 >[!Note]
 >**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**\
 \
-[![Resume](https://img.shields.io/badge/Resume-PDF-000000.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=2f81f7)](https://mgross21.github.io/MGross21/resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-PDF-2f81f7.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=2f81f7)](https://mgross21.github.io/MGross21/resume.pdf)
 
 <!-- ### Notable Open-Source Contributions
 
@@ -29,7 +29,7 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 <!--![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)-->
 <!--![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)-->
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&custom_title=Local%20Repositories&layout=compact&theme=tokyonight&hide_border=true&card_width=300&scale=1.2&langs_count=12&hide=jupyter+notebook)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&custom_title=Local%20Repositories&layout=compact&theme=blue_navy&hide_border=true&card_width=300&scale=1.2&langs_count=12&hide=jupyter+notebook)
 
 ## Currently Developing with
 
