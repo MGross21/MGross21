@@ -2,7 +2,6 @@
 <sub>_Table of Contents_  </sub>
 [<kbd>About Me</kbd>](https://github.com/MGross21#about-me)
 [<kbd>Languages</kbd>](https://github.com/MGross21#languages)
-[<kbd>Current Projects</kbd>](https://github.com/MGross21#current-projects)
 [<kbd>Developer Tools</kbd>](https://github.com/MGross21#currently-developing-with)
 [<kbd>GitHub Stats</kbd>](https://github.com/MGross21#github-stats)
 [<kbd>Current Projects</kbd>](https://github.com/MGross21#current-projects)
