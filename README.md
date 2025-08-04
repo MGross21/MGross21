@@ -1,4 +1,12 @@
 # Hello there
+<sub>_Table of Contents_  </sub>
+[<kbd>About Me</kbd>](https://github.com/MGross21/MGross21#about-me)
+[<kbd>Languages</kbd>](https://github.com/MGross21/MGross21#languages)
+[<kbd>Current Projects</kbd>](https://github.com/MGross21/MGross21#current-projects)
+[<kbd>Developer Tools</kbd>](https://github.com/MGross21/MGross21#currently-developing-with)
+[<kbd>GitHub Stats</kbd>](https://github.com/MGross21/MGross21#github-stats)
+[<kbd>Current Projects</kbd>](https://github.com/MGross21/MGross21#current-projects)
+[<kbd>Completed Projects</kbd>](https://github.com/MGross21/MGross21#completed-projects)
 
 ## About Me
 
@@ -57,7 +65,7 @@ def job():
 
 ### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
-**Install it from**
+_Install it from_
 
 [![PyPi](https://img.shields.io/badge/pypi-000000.svg?style=for-the-badge&logo=pypi&logoColor=2f81f7)](https://pypi.org/project/mujoco-toolbox/)
 [![GitHub](https://img.shields.io/badge/github-000000.svg?style=for-the-badge&logo=github&logoColor=2f81f7)](https://github.com/MGross21/mujoco-toolbox?tab=readme-ov-file#installation)
@@ -72,8 +80,9 @@ def job():
 
 ### [armctl](https://github.com/MGross21/armctl)
 
-**Install it from**
+_Install it from_
 
+[![PyPi](https://img.shields.io/badge/pypi-000000.svg?style=for-the-badge&logo=pypi&logoColor=2f81f7)](https://pypi.org/project/armctl/)
 [![GitHub](https://img.shields.io/badge/github-000000.svg?style=for-the-badge&logo=github&logoColor=2f81f7)](https://github.com/MGross21/armctl?tab=readme-ov-file#installation)
 
 <img src="https://github.com/user-attachments/assets/ec644be1-c40d-47e3-bc11-72c458d17004" alt="UR5 on Vention Plate" width="300">
@@ -107,7 +116,7 @@ _Pronounced "Cursive"_
 
 ### [Analytical Robotic Evaluation Service (ARES) Discord Bot](https://github.com/ARES-Digital-Hub/ARES-Bot)
 
-**Invite ARES Bot:**
+_Click to Invite_
 
 [![Discord](https://img.shields.io/badge/Discord-000000.svg?style=for-the-badge&logo=discord&logoColor=2f81f7)](https://discord.com/oauth2/authorize?client_id=1327489137238081566&permissions=551903488064&integration_type=0&scope=applications.commands+bot)
 
