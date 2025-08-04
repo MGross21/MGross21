@@ -9,6 +9,13 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 \
 [![Resume](https://img.shields.io/badge/Resume-PDF-2f81f7.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=2f81f7)](https://mgross21.github.io/MGross21/resume.pdf)
 
+<!-- ```python
+def job():
+    while not finished():
+        continue
+```
+<sub>[Job Not Finished](https://www.tiktok.com/@nba/video/7492451021310987551?lang=en)</sub>  -->
+
 <!-- ### Notable Open-Source Contributions
 
 [View Pull Requests & Contributions](https://github.com/search?q=author%3AMGross21+org%3AUniversalRobots&type=pullrequests) -->
