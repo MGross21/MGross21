@@ -62,14 +62,15 @@ def job():
 
 ## Current Projects
 
-### [Mujoco-Toolbox](https://github.com/MGross21/mujoco-toolbox)
+### [Mujoco Toolbox](https://github.com/MGross21/mujoco-toolbox)
 
 _Install it from_
 
 [![PyPi](https://img.shields.io/badge/pypi-000000.svg?style=for-the-badge&logo=pypi&logoColor=2f81f7)](https://pypi.org/project/mujoco-toolbox/)
 [![GitHub](https://img.shields.io/badge/github-000000.svg?style=for-the-badge&logo=github&logoColor=2f81f7)](https://github.com/MGross21/mujoco-toolbox?tab=readme-ov-file#installation)
 
-<img src="https://github.com/user-attachments/assets/1193a03d-f307-4b6c-a157-45401bc9e612" alt="UR5 on Vention" width="300">
+<img src="https://github.com/MGross21/glovebox-digitaltwin/blob/main/assets/images/ur5_vention_w_cup.png" alt="UR5 in Glovebox" width="500">
+
 
 - Designed to Streamline Concept-to-Simulation
 - Applications for:
