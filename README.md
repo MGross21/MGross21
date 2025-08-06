@@ -92,12 +92,6 @@ _Install it from_
 - Controls Multiple Robotic Arms from Different OEMs
 - Multi-Robotic Control Capabilities
 
-### [Pomodoro Timer (CLI)](https://github.com/MGross21/pomodoro-cli)
-<img src="https://raw.githubusercontent.com/MGross21/pomodoro-cli/main/assets/videos/usage.gif" alt="Pomodoro Timer" width="500">
-
-- A time management tool based on the Pomodoro Technique
-- Developed in Rust (`1.3MB` in size)
-
 ### [KURCIVE](https://github.com/MGross21/kurcive)
 
 _Pronounced "Cursive"_
