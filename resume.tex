@@ -20,17 +20,17 @@
 
 \begin{center}
     {\LARGE \textbf{Michael H. Gross}} \\
-    \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ (520) 419-9061 \textbar\ 
+    \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ +1~(520)~419--9061 \textbar\ 
     \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar\ \href{https://github.com/MGross21}{github.com/MGross21}
 \end{center}
 
 \section*{Summary}
-Robotics software engineer specializing in control systems, real-time simulation, and multi-robot integration across perception, planning, and actuation.
+Robotics software engineer with expertise in perception, planning, and control. Experienced across the full mechatronics stack, developing flexible, modular tools, real-time systems, and deployment pipelines for multi-robot frameworks in both research and field applications. %Highly motivated and results-driven.
 
 \section*{Education}
 \textbf{Arizona State University}, Mesa, AZ \\
-\textbf{Robotics and Autonomous Systems}, \textit{M.S.}; \hfill \textit{with Distinction} -- 4.0 GPA \\
-\textbf{Robotics Engineering}, \textit{B.S.E.}; Minor in Applied Mathematics (May 2024) \hfill \textit{Summa Cum Laude} -- 4.0 GPA
+\textbf{Robotics and Autonomous Systems}, \textit{M.S.} \hfill \textit{with Distinction} --- 4.0 GPA \\
+\textbf{Robotics Engineering}, \textit{B.S.E.}; Minor in Applied Mathematics \hfill \textit{Summa Cum Laude} --- 4.0 GPA
 
 \section*{Skills}
 \textbf{Languages \& Frameworks:} Python, C++, Rust, MATLAB, ROS2, OpenCV, MuJoCo, Gazebo \\
@@ -38,53 +38,80 @@ Robotics software engineer specializing in control systems, real-time simulation
 \textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, 3D Printing, CNC Machining
 
 \section*{Experience}
-\textbf{Precision Planting (An AGCO Company)}, Fargo, ND \hfill May -- Aug 2024 \\
+\textbf{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ \hfill Aug 2024 --- July 2024 \\
+\textit{Graduate Research Assistant}
+\begin{itemize}
+  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API for multi-platform manipulator control (UR, Vention, Elephant) with $<$10 ms motion latency
+  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based simulation framework for reinforcement learning and closed-loop control
+  \item Integrated inverse kinematics, trajectory generation, and sensor fusion modules for adaptive and precise motion planning
+  \item Implemented multi-robot coordination algorithms for cooperative manipulation in dynamic environments
+  \item Combined perception and planning pipelines with computer vision and deep learning for constrained-environment manipulation
+  \item Automated validation and deployment using CI/CD pipelines and containerized builds for reproducible research
+\end{itemize}
+\vspace{0.5em}
+\textbf{Precision Planting (An AGCO Company)}, Fargo, ND \hfill May --- Aug 2024 \\
 \textit{Research \& Development Intern}
 \begin{itemize}
   \item Designed lab-based testing fixtures using Creo \& 3D printing to replicate extreme field usage for developmental sensors
   \item Analyzed 1000+ acres of optical seeder sensor data to determine 10\% explicit performance improvement over competitors
   \item Integrated embedded sensors into existing CAN bus system using custom drivers to support future product development
 \end{itemize}
-\vspace{0.5em}
-\textbf{Camp IHC}, Honesdale, PA \hfill Summers 2018 -- 2023 \\
-\textit{Counselor-in-Training (CIT) Program Head Counselor}
-\begin{itemize}
-  \item Led leadership program for 50+ participants, managing logistics, training, and conflict resolution.
-\end{itemize}
+% \vspace{0.5em}
+% \textbf{Camp IHC}, Honesdale, PA \hfill Summers 2018 -- 2023 \\
+% \textit{Counselor-in-Training (CIT) Program Head Counselor}
+% \begin{itemize}
+%   \item Directed mentorship and leadership development for over 50 CITs, fostering team management and conflict resolution
+%   \item Coordinated and led multi-day programs for groups of 20-50 participants, managing logistics and scheduling
+%   \item Led counselor pre-season training sessions covering activity planning, camper management, and staff responsibilities
+% \end{itemize}
 
-\section*{Projects \& Research}
-\textbf{\href{https://github.com/MGross21/armctl}{Agnostic Robotic Manipulation Controller}} \hfill Oct 2024 -- Present \\
-\hspace*{2em}Developed vendor-agnostic Python API for real-time robotic manipulator control across UR, Vention, and Elephant \\
-\hspace*{2em}Robotics arms with full ROS2 integration; implemented socket and serial drivers achieving $<$10 ms motion latency \\
-\hspace*{2em}Integrated inverse kinematics, trajectory generation, and sensor fusion modules for adaptive control
-\\
-\textbf{\href{https://github.com/MGross21/mujoco-toolbox}{MuJoCo Toolbox}} \hfill Sep 2024 -- Present \\
-\hspace*{2em}Built digital twin simulation framework in MuJoCo with OpenGL rendering for reinforcement learning and control \\
-\hspace*{2em}Integrated physics simulation, robot kinematics, and perception stack for closed-loop control without ROS \\
-\hspace*{2em}Automated simulation validation with CI/CD pipelines to ensure reproducible robotics software deployments
-\\
-\textbf{\href{https://github.com/MGross21/glovebox-digitaltwin}{Glovebox Digital Twin}} \textbar\ Los Alamos National Labs \hfill Aug 2024 -- Jul 2025 \\
-\hspace*{2em}Designed robotic arm digital twin for hazardous-environment manipulation with computer vision and path planning \\
-\hspace*{2em}Implemented object detection and tracking using deep learning models and sensor fusion from RGB-D/depth cameras \\
-\hspace*{2em}Optimized end-effector control and motion planning to improve precision in confined workspace operations
-\\
-\textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan -- May 2025 \\
-\hspace*{2em}Engineered wearable medical robotics system with IMU and gyroscopic sensors, Bluetooth Low Energy streaming, \\
-\hspace*{2em}and interactive GUI; achieved $<$50 ms real-time sensor-to-actuator feedback loop for vibrotactile therapy exercises \\
-\hspace*{2em}Developed firmware and embedded systems control for responsive rehabilitation applications
-\\
-\textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \hfill Jan -- May 2025 \\
-\hspace*{2em}Implemented ROS2 nodes for SLAM, CV-based target detection, and multi-threaded sensor fusion \\
-\hspace*{2em}Developed algorithmic policy models for adaptive pursuit-evasion strategies in dynamic, cluttered environments \\
-\hspace*{2em}Integrated localization, motion planning, and autonomous navigation in simulation and physical robots
+\section*{Projects}
+\textbf{\href{https://github.com/MGross21/glovebox-digitaltwin}{Robotic Glovebox Digital Twin}} \textbar\ Los Alamos National Labs \hfill Aug 2024 --- Jul 2025
+\begin{itemize}
+  \item Designed robotic arm digital twin for hazardous-environment manipulation with computer vision and path planning
+  \item Implemented object detection/tracking using deep learning models and sensor fusion from cameras and fiducial markers
+  \item Optimized end-effector control and motion planning to improve precision in confined workspace operations
+\end{itemize}
+\textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
+\begin{itemize}
+  \item Engineered wearable medical robotics system with IMU and gyroscopic sensors, Bluetooth Low Energy streaming, and interactive GUI; achieved $<$50 ms real-time sensor-to-actuator feedback loop for vibrotactile therapy exercises.
+  \item Developed firmware and embedded systems control for responsive rehabilitation applications
+\end{itemize}
+\textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \textbar\ Arizona State University \hfill Jan --- May 2025
+\begin{itemize}
+  \item Implemented ROS2 nodes for SLAM, CV-based target detection, and multi-threaded sensor fusion
+  \item Developed algorithmic policy models for adaptive pursuit-evasion strategies in dynamic, cluttered environments
+  \item Integrated localization, motion planning, and autonomous navigation in simulation and physical robots
+\end{itemize}
+\textbf{\href{https://github.com/MGross21/Robotic-Jumping-Frog}{Frog Gait Reproduction}} \textbar\ Arizona State University \hfill Aug --- Dec 2024
+\begin{itemize}
+  \item Developed a foldable bio-inspired robotic frog; modeled limb motion and optimized material parameters for locomotion.
+\end{itemize}
+\textbf{\href{https://www.youtube.com/watch?v=i5I38tLkD6o}{Tilt-Up Window Automation}} \textbar\ Summit Automation \hfill Aug 2023 --- May 2024
+\begin{itemize}
+  \item Built smart home window controller using linear actuators and custom PCB; delivered as a marketed product.
+\end{itemize}
+% \textbf{\href{https://EGR314-Team205.github.io}{Smart Umbrella for Wheelchairs}} \textbar\ Arizona State University \hfill Jan --- May 2023
+% \begin{itemize}
+%   \item Designed a motorized canopy with real-time climate sensor control; implemented custom PCB and housing for integration with wheelchairs.
+% \end{itemize}
+% \textbf{\href{https://www.youtube.com/watch?v=rs_C8sR2_co}{SCRAM Robot}} \textbar\ Fleet Science Museum \hfill Aug -- Dec 2022 \\
+% \hspace*{2em}Modular Soft Curved Reconfigurable Anisotropic Mechanisms (SCRAMs) with Embedded Microcontroller Circuitry
+% \\
+% Engineered modular soft reconfigurable mechanisms (SCRAMs) with embedded microcontroller circuitry for robotics demonstration.
+% \textbf{\href{https://github.com/MGross21/EdgeMappingResearchProject}{Edge Mapping Evaluation}} \hfill Aug -- Dec 2022 \\
+% \hspace*{2em}Prewitt/Sobel/Roberts Cross Operators, MATLAB AlexNet CNN Training, Autonomous Vehicle Object Detection
+% Evaluated edge detection operators (Prewitt, Sobel, Roberts Cross); trained CNN models (AlexNet, MATLAB) for autonomous vehicle object detection.
 
 \section*{Leadership \& Activities}
-\textbf{FIRST Tech Challenge (FTC)}, Tucson, AZ \hfill Aug 2022 -- Present \\
-\textit{Head Programming Mentor and Original Founding Member, Pioneer Robotics Club}\\
-\hspace*{2em}Integrating Sensor Fusion, Kalman Filtering, World-Centric Localization, Multi-Threading, Path Planning, Automation
+\textbf{FIRST Tech Challenge (FTC)}, Tucson, AZ \hfill Aug 2022 --- Present \\
+\textit{Head Programming Mentor and Original Founding Member, Pioneer Robotics Club}
+\begin{itemize}
+  \item Taught sensor fusion, Kalman filtering, world-centric localization, multithreading, and path planning for automation.
+\end{itemize}
 
 \section*{Honors \& Awards}
 \textbf{\href{https://www.linkedin.com/posts/mhgross_asuengineering-design-robotics-activity-7324315472491855873-Gn_C}{1st Place -- Robotics \& Art Competition}} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 -- 25 \\
-\textbf{Graduate Scholarship} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 -- 25
+\textbf{Graduate Scholarship} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 --- 25
 
 \end{document}
