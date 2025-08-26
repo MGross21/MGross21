@@ -20,7 +20,7 @@ jobs:
       - name: Cache TeXLive packages
         uses: actions/cache@v4
         with:
-          path: ~/.texlive
+          path: ~/.texlive/texmf-var
           key: ${{ runner.os }}-texlive-${{ hashFiles('**/*.tex') }}
           restore-keys: |
             ${{ runner.os }}-texlive-
@@ -33,7 +33,7 @@ jobs:
       - name: Save TeXLive cache
         uses: actions/cache/save@v4
         with:
-          path: ~/.texlive
+          path: ~/.texlive/texmf-var
           key: ${{ runner.os }}-texlive-${{ hashFiles('**/*.tex') }}
 
       - name: Compile all LaTeX files
