@@ -13,17 +13,17 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 >[!Note]
 >**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**
 >
-> [![Resume](https://img.shields.io/badge/Resume-PDF-2f81f7.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=2f81f7)](https://mgross21.github.io/MGross21/resume.pdf)
+> [![Resume](https://img.shields.io/badge/Resume-PDF-238636.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=f0f6fc&labelColor=21262d)](https://mgross21.github.io/MGross21/resume.pdf)
 
 ## Public Packages
 
 | Package | Version | Downloads | Status |
 |---------|---------|-----------|--------|
-| [mujoco-toolbox](https://pypi.org/project/mujoco-toolbox/) | ![PyPI](https://img.shields.io/pypi/v/mujoco-toolbox?color=2f81f7&label=version&style=for-the-badge) | ![Downloads](https://img.shields.io/pypi/dm/mujoco-toolbox?color=2f81f7&label=downloads&style=for-the-badge) | ![Status](https://img.shields.io/pypi/status/mujoco-toolbox?color=2f81f7&label=status&style=for-the-badge) |
-| [armctl](https://pypi.org/project/armctl/) | ![PyPI](https://img.shields.io/pypi/v/armctl?color=2f81f7&label=version&style=for-the-badge) | ![Downloads](https://img.shields.io/pypi/dm/armctl?color=2f81f7&label=downloads&style=for-the-badge) | ![Status](https://img.shields.io/pypi/status/armctl?color=2f81f7&label=status&style=for-the-badge) |
-| [spikeble](https://pypi.org/project/spikeble/) | ![PyPI](https://img.shields.io/pypi/v/spikeble?color=2f81f7&label=version&style=for-the-badge) | ![Downloads](https://img.shields.io/pypi/dm/spikeble?color=2f81f7&label=downloads&style=for-the-badge) | ![Status](https://img.shields.io/pypi/status/spikeble?color=2f81f7&label=status&style=for-the-badge) |
+| [mujoco-toolbox](https://pypi.org/project/mujoco-toolbox/) | ![PyPI](https://img.shields.io/pypi/v/mujoco-toolbox?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://img.shields.io/pypi/dm/mujoco-toolbox?color=1f6feb&label=downloads&style=for-the-badge&labelColor=21262d) | ![Status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
+| [armctl](https://pypi.org/project/armctl/) | ![PyPI](https://img.shields.io/pypi/v/armctl?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://img.shields.io/pypi/dm/armctl?color=1f6feb&label=downloads&style=for-the-badge&labelColor=21262d) | ![Status](https://img.shields.io/pypi/status/armctl?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
+| [spikeble](https://pypi.org/project/spikeble/) | ![PyPI](https://img.shields.io/pypi/v/spikeble?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://img.shields.io/pypi/dm/spikeble?color=1f6feb&label=downloads&style=for-the-badge&labelColor=21262d) | ![Status](https://img.shields.io/pypi/status/spikeble?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
 
-<!-- Development Status Badge: ![status](https://img.shields.io/pypi/status/mujoco-toolbox?color=2f81f7&labelColor=000000&style=for-the-badge&label=) -->
+<!-- Development Status Badge: ![status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&labelColor=21262d&style=for-the-badge&label=) -->
 <!-- ```python
 def job():
     while not finished():
@@ -36,9 +36,9 @@ def job():
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&custom_title=Local%20Repositories&layout=compact&theme=blue_navy&hide_border=true&card_width=300&scale=1.2&langs_count=12&hide=jupyter+notebook" height="180">
-  <img src="https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=blue_navy&hide_border=true&card_width=300&scale=0.8&rank_icon=github" height="180">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MGross21&theme=blue_navy&hide_border=true&card_width=400&scale=1" height="180">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MGross21&custom_title=Local%20Repositories&layout=compact&theme=github_dark&hide_border=true&card_width=300&scale=1.2&langs_count=12&hide=jupyter+notebook" height="180">
+  <img src="https://github-readme-stats.vercel.app/api?username=MGross21&show_icons=true&theme=github_dark&hide_border=true&card_width=300&scale=0.8&rank_icon=github" height="180">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MGross21&theme=github-dark-blue&hide_border=true&card_width=400&scale=1" height="180">
 </p>
 <!--[![trophy](https://github-profile-trophy.vercel.app/?username=MGross21&theme=blue_navy&column=4&margin-w=5&margin-h=5)](https://github-profile-trophy.vercel.app/?username=MGross21&theme=onedark)-->
 
@@ -67,6 +67,6 @@ A custom convolutional neural network (CNN) based on the AlexNet architecture wa
 
 ## Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=2f81f7)](https://www.linkedin.com/in/mhgross/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=f0f6fc&labelColor=21262d)](https://www.linkedin.com/in/mhgross/)
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=MGross21.MGross21&color=2f81f7&labelColor=000000&style=for-the-badge)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=MGross21.MGross21&color=238636&labelColor=21262d&style=for-the-badge)
