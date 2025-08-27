@@ -13,15 +13,15 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 >[!Note]
 >**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**
 >
-> [![Resume](https://img.shields.io/badge/Resume-PDF-238636.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=f0f6fc&labelColor=21262d)](https://mgross21.github.io/MGross21/resume.pdf)
+> [![Resume](https://img.shields.io/badge/Resume-PDF-1f6feb.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=238636&labelColor=21262d)](https://mgross21.github.io/MGross21/resume.pdf)
 
 ## Public Packages
 
 | Package | Version | Downloads | Status |
 |---------|---------|-----------|--------|
-| [mujoco-toolbox](https://pypi.org/project/mujoco-toolbox/) | ![PyPI](https://img.shields.io/pypi/v/mujoco-toolbox?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://img.shields.io/pypi/dm/mujoco-toolbox?color=1f6feb&label=downloads&style=for-the-badge&labelColor=21262d) | ![Status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
-| [armctl](https://pypi.org/project/armctl/) | ![PyPI](https://img.shields.io/pypi/v/armctl?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://img.shields.io/pypi/dm/armctl?color=1f6feb&label=downloads&style=for-the-badge&labelColor=21262d) | ![Status](https://img.shields.io/pypi/status/armctl?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
-| [spikeble](https://pypi.org/project/spikeble/) | ![PyPI](https://img.shields.io/pypi/v/spikeble?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://img.shields.io/pypi/dm/spikeble?color=1f6feb&label=downloads&style=for-the-badge&labelColor=21262d) | ![Status](https://img.shields.io/pypi/status/spikeble?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
+| [mujoco-toolbox](https://pypi.org/project/mujoco-toolbox/) | ![PyPI](https://img.shields.io/pypi/v/mujoco-toolbox?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/mujoco-toolbox?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
+| [armctl](https://pypi.org/project/armctl/) | ![PyPI](https://img.shields.io/pypi/v/armctl?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/armctl?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/armctl?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
+| [spikeble](https://pypi.org/project/spikeble/) | ![PyPI](https://img.shields.io/pypi/v/spikeble?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/spikeble?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/spikeble?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
 
 <!-- Development Status Badge: ![status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&labelColor=21262d&style=for-the-badge&label=) -->
 <!-- ```python
@@ -31,7 +31,9 @@ def job():
 ```
 <sub>[Job Not Finished](https://www.tiktok.com/@nba/video/7492451021310987551?lang=en)</sub>  -->
 
-[Open-Source Contributions](https://github.com/search?q=author%3AMGross21+org%3AUniversalRobots+org%3AMeridius-Labs+&type=pullrequests)
+### Open-Source Contributions
+
+[![Open-Source Contributions](https://img.shields.io/badge/Open%20Source-Contributions-238636?style=for-the-badge&logo=github&logoColor=f0f6fc&labelColor=21262d)](https://github.com/search?q=author%3AMGross21+org%3AUniversalRobots+org%3AMeridius-Labs+&type=pullrequests)
 
 ## GitHub Stats
 
@@ -45,24 +47,31 @@ def job():
 ## Projects
 
 **[mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox):**
+
 This project is designed to streamline the process from concept to simulation. It supports applications in reinforcement learning, digital twins, and fast-paced classroom environments.
 
 **[armctl](https://github.com/MGross21/armctl):**
+
 Armctl provides a unified template framework API that enables control of multiple robotic arms from different OEMs. It supports multi-robotic control capabilities and enhances robot model descriptions for flexible and scalable robotics applications.
 
 **[ARES Discord Bot](https://github.com/ARES-Digital-Hub/ARES-Bot):**
+
 This project features a custom Python object-oriented programming (OOP) architecture designed to utilize the [FIRST FTC API](https://ftc-events.firstinspires.org/services/API). It includes a custom least squares error (LSE) implementation for calculating the community metric, Offensive Power Ranking (OPR). The bot integrates slash commands into the Discord social chat platform, and an iOS app is currently in closed-beta release.
 
 **[Glovebox Digital Twin](https://github.com/MGross21/glovebox-digitaltwin):**
+
 This project combines [mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox) and [armctl](https://github.com/MGross21/armctl) into a constrained digital twin application. It was completed as part of a Master's thesis at Arizona State University. The system features a YOLO-based object recognition and tracking pipeline, along with a custom UDP pub/sub communication framework.
 
 **[Five Bar Linkage Foldable Robotic Jumping Frog](https://github.com/MGross21/Robotic-Jumping-Frog"):**
+
 This project was completed as part of Arizona State University's [Foldable Robotics](https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=86916&searchType=all&term=2247#detailsOpen=86916-131772) final project. The work involved an experimental approach to determine material and motor characteristics, including stiffness, damping, torque, and rotational velocity. Rapid and cost-effective manufacturing methods were used to develop the final product. Non-linear optimization was performed using MuJoCo simulation tools and Python libraries.
 
 **[OpenCV 6DoF Object Pose Detection](https://github.com/MGross21/ArucoCV-6DoF-MeshVisualizer):**
+
 Standardized fiducial markers, including ArUco and Tag markers, were utilized to determine the x, y, z position as well as the roll, pitch, and yaw of introduced objects. Per-ID dynamic mesh generation was implemented to enable accurate reproduction of objects within augmented reality environments.
 
 **[Edge Mapping Research](https://github.com/MGross21/EdgeMappingResearchProject):**
+
 A custom convolutional neural network (CNN) based on the AlexNet architecture was trained using a dataset of over 60,000 images. The project evaluated the performance of Canny, Sobel, and Roberts Cross matrix filters for object detection tasks, with a focus on standard road objects including trucks, cars, bicyclists, pedestrians, and road signs.
 
 ## Let's Connect!
