@@ -1,18 +1,32 @@
 \documentclass[10pt]{article}
 \usepackage[margin=0.5in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\hypersetup{
-  pdftitle={Michael H. Gross Resume},
-  pdfauthor={Michael H. Gross},
-  pdfsubject={Resume, Robotics, Engineering},
-  pdfkeywords={Robotics, Python, C++, Engineering, Resume, Michael Gross},
-}
-\usepackage{enumitem, titlesec}
+
+% Fonts and formatting
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{enumitem, titlesec}
 \setlist[itemize]{noitemsep, topsep=0pt}
 \titleformat{\section}{\bfseries\uppercase}{\thesection}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{0.5em}{0.5em}
+
+% Hyperlinks (modern setup)
+\usepackage{xcolor}
+\definecolor{linkblue}{HTML}{0B63CE}
+\usepackage[colorlinks]{hyperref}   % load hyperref first
+\usepackage{ocgx2}                  % then enable OCG color switching
+\hypersetup{
+  pdftitle   ={Michael H. Gross — Robotics Software Engineer},
+  pdfauthor  ={Michael H. Gross},
+  pdfsubject ={Robotics software, simulation, embedded systems},
+  pdfkeywords={Robotics, Software Engineer, Simulation, Embedded Systems, Control, Computer Vision},
+  colorlinks=true,
+  linkcolor=linkblue,
+  urlcolor=linkblue,
+  citecolor=linkblue,
+  pdfborder={0 0 0}
+}
+
+\urlstyle{same}
 \pagestyle{empty}
 
 \begin{document}
@@ -20,12 +34,12 @@
 
 \begin{center}
     {\LARGE \textbf{Michael H. Gross}} \\
-    \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ +1~(520)~419--9061 \textbar\ 
+    \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ \href{tel:+15204199061}{(520) 419--9061} \textbar\ 
     \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar\ \href{https://github.com/MGross21}{github.com/MGross21}
 \end{center}
 
 \section*{Summary}
-Robotics software engineer with expertise in perception, planning, and control. Experienced across the full mechatronics stack, developing flexible, modular tools, real-time systems, and deployment pipelines for multi-robot frameworks in both research and field applications. %Highly motivated and results-driven.
+Robotics software engineer with expertise in perception, planning, control and embedded systems. Experienced across the full mechatronics stack, ranging from low-level firmware and hardware interfaces to high-level libraries and frameworks. Dedicated to delivering modular and scalable solutions that advance robotics in product development and deployment.
 
 \section*{Education}
 \textbf{Arizona State University}, Mesa, AZ \\
@@ -35,18 +49,16 @@ Robotics software engineer with expertise in perception, planning, and control. 
 \section*{Skills}
 \textbf{Languages \& Frameworks:} Python, C++, Rust, MATLAB, ROS2, OpenCV, MuJoCo, Gazebo \\
 \textbf{Tools \& Systems:} Git, Docker, CI/CD, Linux, Embedded Systems, PCB Design \\
-\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, 3D Printing, CNC Machining
+\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, Cadence, 3D Printing, CNC Machining
 
 \section*{Experience}
 \textbf{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ \hfill Aug 2024 --- July 2025 \\
 \textit{Graduate Research Assistant}
 \begin{itemize}
-  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API for multi-platform manipulator control with $<$10 ms motion latency
-  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based simulation framework for reinforcement learning and closed-loop control
-  \item Integrated inverse kinematics, trajectory generation, and sensor fusion modules for adaptive and precise motion planning
-  \item Implemented multi-robot coordination algorithms for cooperative manipulation in dynamic environments
-  \item Combined perception and planning pipelines with computer vision and deep learning for constrained-environment
-  \item Automated validation and deployment via CI/CD pipelines and containerized builds to improve research reproducibility
+  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API controlling industrial robotic arms such as UR, Vention, and Elephant Robotics; achieved around 15 ms latency and removed redundant platform-specific drivers
+  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital twin toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; supported reinforcement learning and reproducible closed-loop experiments
+  \item Integrated trajectory optimization, sensor fusion, and adaptive control into cohesive pipelines; demonstrated effectiveness on multi-robot coordination in cluttered and dynamic settings
+  \item Implemented containerized CI/CD workflows that standardized benchmarking, reduced configuration overhead, and increased reliability across research deployments
 \end{itemize}
 \vspace{0.5em}
 \textbf{Precision Planting (An AGCO Company)}, Fargo, ND \hfill May --- Aug 2024 \\
@@ -68,20 +80,19 @@ Robotics software engineer with expertise in perception, planning, and control. 
 \section*{Projects}
 \textbf{\href{https://github.com/MGross21/glovebox-digitaltwin}{Robotic Glovebox Digital Twin}} \textbar\ Los Alamos National Labs \hfill Aug 2024 --- Jul 2025
 \begin{itemize}
-  \item Designed robotic arm digital twin for hazardous-environment manipulation with computer vision and path planning
-  \item Implemented object detection/tracking using deep learning models and sensor fusion from cameras and fiducial markers
-  \item Optimized end-effector control and motion planning to improve precision in confined workspace operations
+  \item Built robotic arm digital twin for hazardous glovebox operations with computer vision, motion planning, and control
+  \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion/limited visibility
+  \item Optimized path planning for confined workcells, improving accuracy and reliability in high-risk environments
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
 \begin{itemize}
-  \item Engineered wearable medical robotics system with IMU and gyroscopic sensors, Bluetooth Low Energy streaming, and interactive GUI; achieved $<$50 ms real-time sensor-to-actuator feedback loop for vibrotactile therapy exercises.
+  \item Engineered wearable medical robotics system with IMU and gyroscopic sensors, Bluetooth Low Energy streaming, and interactive GUI; achieved less than 50 ms real-time sensor-to-actuator feedback loop for vibrotactile therapy exercises.
   \item Developed firmware and embedded systems control for responsive rehabilitation applications
 \end{itemize}
 \textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \textbar\ Arizona State University \hfill Jan --- May 2025
 \begin{itemize}
-  \item Implemented ROS2 nodes for SLAM, CV-based target detection, and multi-threaded sensor fusion
-  \item Developed algorithmic policy models for adaptive pursuit-evasion strategies in dynamic, cluttered environments
-  \item Integrated localization, motion planning, and autonomous navigation in simulation and physical robots
+  \item Built ROS2 nodes for SLAM, computer vision detection, sensor fusion, and localization to enable autonomous navigation
+  \item Designed and tested policy models and motion planning for pursuit-evasion in cluttered environments
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/Robotic-Jumping-Frog}{Frog Gait Reproduction}} \textbar\ Arizona State University \hfill Aug --- Dec 2024
 \begin{itemize}
@@ -89,20 +100,20 @@ Robotics software engineer with expertise in perception, planning, and control. 
 \end{itemize}
 \textbf{\href{https://www.youtube.com/watch?v=i5I38tLkD6o}{Tilt-Up Window Automation}} \textbar\ Summit Automation \hfill Aug 2023 --- May 2024
 \begin{itemize}
-  \item Built smart home window controller using linear actuators and custom PCB; delivered as a marketed product.
+  \item Developed 400 lb IoT device with linear actuators, embedded control, and custom PCB; delivered commercially
 \end{itemize}
-% \textbf{\href{https://EGR314-Team205.github.io}{Smart Umbrella for Wheelchairs}} \textbar\ Arizona State University \hfill Jan --- May 2023
-% \begin{itemize}
-%   \item Designed a motorized canopy with real-time climate sensor control; implemented custom PCB and housing for integration with wheelchairs.
-% \end{itemize}
+\textbf{\href{https://EGR314-Team205.github.io}{Smart Umbrella for Wheelchairs}} \textbar\ Arizona State University \hfill Jan --- May 2023
+\begin{itemize}
+  \item Designed a motorized canopy with real-time climate sensor control; implemented custom PCB and mounted housing
+\end{itemize}
 % \textbf{\href{https://www.youtube.com/watch?v=rs_C8sR2_co}{SCRAM Robot}} \textbar\ Fleet Science Museum \hfill Aug -- Dec 2022 \\
 % \hspace*{2em}Modular Soft Curved Reconfigurable Anisotropic Mechanisms (SCRAMs) with Embedded Microcontroller Circuitry
 % \\
 % Engineered modular soft reconfigurable mechanisms (SCRAMs) with embedded microcontroller circuitry for robotics demonstration.
-% \textbf{\href{https://github.com/MGross21/EdgeMappingResearchProject}{Edge Mapping Evaluation}} \hfill Aug -- Dec 2022 \\
-% \hspace*{2em}Prewitt/Sobel/Roberts Cross Operators, MATLAB AlexNet CNN Training, Autonomous Vehicle Object Detection
-% Evaluated edge detection operators (Prewitt, Sobel, Roberts Cross); trained CNN models (AlexNet, MATLAB) for autonomous vehicle object detection.
-
+\textbf{\href{https://github.com/MGross21/EdgeMappingResearchProject}{Edge Mapping Evaluation}} \textbar\ Arizona State University \hfill Aug -- Dec 2022
+\begin{itemize}
+  \item Evaluated edge detection operators and trained CNNs on 60k+ images for autonomous vehicle detection in MATLAB
+\end{itemize}
 \section*{Leadership \& Activities}
 \textbf{FIRST Tech Challenge (FTC)}, Tucson, AZ \hfill Aug 2022 --- Present \\
 \textit{Head Programming Mentor and Original Founding Member, Pioneer Robotics Club}
@@ -110,8 +121,8 @@ Robotics software engineer with expertise in perception, planning, and control. 
   \item Taught sensor fusion, Kalman filtering, world-centric localization, multithreading, and path planning for automation.
 \end{itemize}
 
-\section*{Honors \& Awards}
-\textbf{\href{https://www.linkedin.com/posts/mhgross_asuengineering-design-robotics-activity-7324315472491855873-Gn_C}{1st Place -- Robotics \& Art Competition}} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 --- 25 \\
-\textbf{Graduate Scholarship} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 --- 25
+% \section*{Awards}
+% \textbf{\href{https://www.linkedin.com/posts/mhgross_asuengineering-design-robotics-activity-7324315472491855873-Gn_C}{1st Place -- Robotics \& Art Competition}} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 --- 25 \\
+% \textbf{Graduate Scholarship} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 --- 25
 
 \end{document}
