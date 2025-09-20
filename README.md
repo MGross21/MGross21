@@ -62,7 +62,7 @@ This project features a custom Python object-oriented programming (OOP) architec
 
 This project combines [mujoco-toolbox](https://github.com/MGross21/mujoco-toolbox) and [armctl](https://github.com/MGross21/armctl) into a constrained digital twin application. It was completed as part of a Master's thesis at Arizona State University. The system features a YOLO-based object recognition and tracking pipeline, along with a custom UDP pub/sub communication framework.
 
-**[Five Bar Linkage Foldable Robotic Jumping Frog](https://github.com/MGross21/Robotic-Jumping-Frog"):**
+**[Five Bar Linkage Foldable Robotic Jumping Frog](https://github.com/MGross21/Robotic-Jumping-Frog):**
 
 This project was completed as part of Arizona State University's [Foldable Robotics](https://catalog.apps.asu.edu/catalog/classes/classlist?keywords=86916&searchType=all&term=2247#detailsOpen=86916-131772) final project. The work involved an experimental approach to determine material and motor characteristics, including stiffness, damping, torque, and rotational velocity. Rapid and cost-effective manufacturing methods were used to develop the final product. Non-linear optimization was performed using MuJoCo simulation tools and Python libraries.
 
