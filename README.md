@@ -13,15 +13,15 @@ I develop robotics software with a strong emphasis on control systems, physics-b
 >[!Note]
 >**I’m currently looking for employment opportunities with fast-paced robotics teams building next-generation systems.**
 >
-> [![Resume](https://img.shields.io/badge/Resume-PDF-1f6feb.svg?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=238636&labelColor=21262d)](https://mgross21.github.io/MGross21/resume.pdf)
+> [![Resume](https://img.shields.io/badge/Resume-PDF-1f6feb?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white&labelColor=21262d)](https://mgross21.github.io/MGross21/resume.pdf)
 
 ## Public Packages
 
 | Package | Version | Downloads | Status |
 |---------|---------|-----------|--------|
-| [mujoco-toolbox](https://pypi.org/project/mujoco-toolbox/) | ![PyPI](https://img.shields.io/pypi/v/mujoco-toolbox?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/mujoco-toolbox?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
-| [armctl](https://pypi.org/project/armctl/) | ![PyPI](https://img.shields.io/pypi/v/armctl?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/armctl?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/armctl?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
-| [spikeble](https://pypi.org/project/spikeble/) | ![PyPI](https://img.shields.io/pypi/v/spikeble?color=238636&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/spikeble?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/spikeble?color=f85149&label=status&style=for-the-badge&labelColor=21262d) |
+| [mujoco-toolbox](https://pypi.org/project/mujoco-toolbox/) | ![PyPI](https://img.shields.io/pypi/v/mujoco-toolbox?color=1f6feb&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/mujoco-toolbox?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/mujoco-toolbox?color=1f6feb&label=status&style=for-the-badge&labelColor=21262d) |
+| [armctl](https://pypi.org/project/armctl/) | ![PyPI](https://img.shields.io/pypi/v/armctl?color=1f6feb&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/armctl?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/armctl?color=1f6feb&label=status&style=for-the-badge&labelColor=21262d) |
+| [spikeble](https://pypi.org/project/spikeble/) | ![PyPI](https://img.shields.io/pypi/v/spikeble?color=1f6feb&label=version&style=for-the-badge&labelColor=21262d) | ![Downloads](https://static.pepy.tech/badge/spikeble?color=1f6feb&labelColor=21262d&style=for-the-badge&label=downloads) | ![Status](https://img.shields.io/pypi/status/spikeble?color=1f6feb&label=status&style=for-the-badge&labelColor=21262d) |
 
 <!-- Development Status Badge: ![status](https://img.shields.io/pypi/status/mujoco-toolbox?color=f85149&labelColor=21262d&style=for-the-badge&label=) -->
 <!-- ```python
@@ -33,7 +33,7 @@ def job():
 
 ### Open-Source Contributions
 
-[![Open-Source Contributions](https://img.shields.io/badge/Open%20Source-Contributions-238636?style=for-the-badge&logo=github&logoColor=f0f6fc&labelColor=21262d)](https://github.com/search?q=author%3AMGross21+org%3AUniversalRobots+org%3AMeridius-Labs+&type=pullrequests)
+[![Open-Source Contributions](https://img.shields.io/badge/Open%20Source-Contributions-1f6feb?style=for-the-badge&logo=github&logoColor=white&labelColor=21262d)](https://github.com/search?q=author%3AMGross21+org%3AUniversalRobots+org%3AMeridius-Labs+&type=pullrequests)
 
 ## GitHub Stats
 
@@ -76,6 +76,6 @@ A custom convolutional neural network (CNN) based on the AlexNet architecture wa
 
 ## Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=f0f6fc&labelColor=21262d)](https://www.linkedin.com/in/mhgross/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-1f6feb?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=21262d)](https://www.linkedin.com/in/mhgross/)
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=MGross21.MGross21&color=238636&labelColor=21262d&style=for-the-badge)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=MGross21.MGross21&color=1f6feb&labelColor=21262d&style=for-the-badge)
