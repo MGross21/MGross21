@@ -13,7 +13,6 @@
 \usepackage{xcolor}
 \definecolor{linkblue}{HTML}{0B63CE}
 \usepackage[colorlinks]{hyperref}   % load hyperref first
-\usepackage{ocgx2}                  % then enable OCG color switching
 \hypersetup{
   pdftitle   ={Michael H. Gross --- Resume},
   pdfauthor  ={Michael H. Gross},
@@ -39,21 +38,21 @@
 \end{center}
 
 \section*{Summary}
-Robotics software engineer with expertise in perception, planning, control and embedded systems. Experienced across the full mechatronics stack, ranging from low-level firmware and hardware interfaces to high-level libraries and frameworks. Dedicated to delivering modular and scalable solutions that advance robotics in product development and deployment.
-
-\section*{Education}
-\textbf{Arizona State University}, Mesa, AZ \\
-\textbf{Robotics and Autonomous Systems}, \textit{M.S.} \hfill \textit{with Distinction} --- 4.0 GPA \\
-\textbf{Robotics Engineering}, \textit{B.S.E.}; Minor in Applied Mathematics \hfill \textit{Summa Cum Laude} --- 4.0 GPA
-
-\section*{Skills}
-\textbf{Languages \& Frameworks:} Python, C/C++, MATLAB, Kotlin, Rust, ROS2, OpenCV, MuJoCo, Gazebo \\
-\textbf{Tools \& Systems:} Git, Docker, CI/CD, Linux (Ubuntu, Arch), Embedded Systems, SPI, I2C, UART, PCB Design \\
-\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, Cadence, 3D Printing, CNC Machining, Laser Cutting, Soldering
+Robotics engineer with expertise in controls, planning, perception, simulation and embedded systems. Experienced across the full mechatronics stack, ranging from low-level firmware and hardware interfaces to high-level libraries and frameworks.
 
 \section*{Experience}
-\textbf{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ \hfill Aug 2024 --- July 2025 \\
-\textit{Graduate Research Assistant}
+\textbf{Robotics Engineer} \hfill Jan 2026 --- Present \\
+\textit{Workr}, Mountain View, CA
+\begin{itemize}
+\item Implemented custom python industrial arm control clients and c/c++ drivers for actuators and embedded systems
+\item Integrated state-of-the-art AI perception, pose estimation, motion planning models into edge inference deployments
+\item Applied VLM and segmentation models for agentic image self-inspection, improving post-training effectiveness
+\item Developed full stack, hardware agnostic robotic solution for high mix materials handling applications
+\item Deployed robotic solutions at customer sites, including on-site testing, user training, and ongoing customer support
+\end{itemize}
+\vspace{0.5em}
+\textbf{Graduate Research Assistant} \hfill Aug 2025 --- Dec 2025 \\
+\textit{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ
 \begin{itemize}
   \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API controlling industrial robotic arms such as UR, Vention, and Elephant Robotics; achieved around 15 ms latency and removed redundant platform-specific drivers
   \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital twin toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; supported reinforcement learning and reproducible closed-loop experiments
@@ -61,8 +60,8 @@ Robotics software engineer with expertise in perception, planning, control and e
   \item Implemented containerized CI/CD workflows that standardized benchmarking, reduced configuration overhead, and increased reliability across research deployments
 \end{itemize}
 \vspace{0.5em}
-\textbf{Precision Planting (An AGCO Company)}, Fargo, ND \hfill May --- Aug 2024 \\
-\textit{Research \& Development Intern}
+\textbf{Research \& Development Intern} \hfill May --- Aug 2024 \\
+\textit{Precision Planting (An AGCO Company)}, Fargo, ND
 \begin{itemize}
   \item Designed lab-based testing fixtures using Creo \& 3D printing to replicate extreme field usage for developmental sensors
   \item Developed data-cleaning algorithms for optical seeder sensor field data; analysis showed 10\% lower detection variance than competitor products, projecting multi-million-dollar savings
@@ -77,12 +76,17 @@ Robotics software engineer with expertise in perception, planning, control and e
 %   \item Led counselor pre-season training sessions covering activity planning, camper management, and staff responsibilities
 % \end{itemize}
 
+\section*{Education}
+\textbf{Arizona State University}, Mesa, AZ \\
+\textbf{Robotics and Autonomous Systems}, \textit{M.S.} \hfill \textit{with Distinction} --- 4.0 GPA \\
+\textbf{Robotics Engineering}, \textit{B.S.E.}; Minor in Applied Mathematics \hfill \textit{Summa Cum Laude} --- 4.0 GPA
+
 \section*{Projects}
 \textbf{\href{https://github.com/MGross21/glovebox-digitaltwin}{Robotic Glovebox Digital Twin}} \textbar\ Los Alamos National Labs \hfill Aug 2024 --- Jul 2025
 \begin{itemize}
-  \item Built robotic arm digital twin for hazardous glovebox operations with computer vision, motion planning, and control
-  \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion/limited visibility
-  \item Optimized path planning for confined workcells, improving accuracy and reliability in high-risk environments
+  \item Conducted software and configuration bringup of ABB robotic arms on lab test stands
+  \item Interfaced native ABB RAPID code with Workr Core software stack utilizing object recognition and pose estimation
+  \item Tested and validated final customer solution and prepped for deployment at customer site
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
 \begin{itemize}
@@ -106,23 +110,10 @@ Robotics software engineer with expertise in perception, planning, control and e
 \begin{itemize}
   \item Designed a motorized canopy with real-time climate sensor control; implemented custom PCB and mounted housing
 \end{itemize}
-% \textbf{\href{https://www.youtube.com/watch?v=rs_C8sR2_co}{SCRAM Robot}} \textbar\ Fleet Science Museum \hfill Aug -- Dec 2022 \\
-% \hspace*{2em}Modular Soft Curved Reconfigurable Anisotropic Mechanisms (SCRAMs) with Embedded Microcontroller Circuitry
-% \\
-% Engineered modular soft reconfigurable mechanisms (SCRAMs) with embedded microcontroller circuitry for robotics demonstration.
-\textbf{\href{https://github.com/MGross21/EdgeMappingResearchProject}{Edge Mapping Evaluation}} \textbar\ Arizona State University \hfill Aug --- Dec 2022
-\begin{itemize}
-  \item Evaluated edge detection operators and trained CNNs on 60k+ images for autonomous vehicle detection in MATLAB
-\end{itemize}
-\section*{Leadership \& Activities}
-\textbf{FIRST Tech Challenge (FTC) -- Pioneer Robotics Club}, Tucson, AZ \hfill Aug 2022 --- Present \\
-\textit{Head Programming Mentor, Original Founding Member}
-\begin{itemize}
-  \item Taught sensor fusion, Kalman filtering, world-centric localization, multithreading, and path planning for automation.
-\end{itemize}
 
-% \section*{Awards}
-% \textbf{\href{https://www.linkedin.com/posts/mhgross_asuengineering-design-robotics-activity-7324315472491855873-Gn_C}{1st Place -- Robotics \& Art Competition}} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 -- 25 \\
-% \textbf{Graduate Scholarship} \textbar\ ASU Ira A. Fulton Schools of Engineering \hfill AY 2024 -- 25
+\section*{Skills}
+\textbf{Languages \& Frameworks:} Python, C/C++, MATLAB, Kotlin, Rust, ROS2, OpenCV, MuJoCo, Gazebo \\
+\textbf{Tools \& Systems:} Git, Docker, CI/CD, Linux (Ubuntu, NixOS), Embedded Systems, SPI, I2C, UART, PCB Design \\
+\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, Cadence, 3D Printing, CNC Machining, Laser Cutting, Soldering
 
 \end{document}

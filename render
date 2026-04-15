@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Compile LaTeX files to PDF using latexmk, output to ./output
 
@@ -13,13 +13,17 @@ mkdir -p output
 
 for file in {resume,cv}.tex; do
     if [[ -f $file ]]; then
-        latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output "$file" -silent
+        latexmk -g -pdf -interaction=nonstopmode -halt-on-error -outdir=output "$file" -silent
     else
         echo "Warning: $file not found, skipping."
     fi
 done
 
-latexmk -c -outdir=output -silent
+for file in {resume,cv}.tex; do
+    if [[ -f $file ]]; then
+        latexmk -c -outdir=output "$file" -silent
+    fi
+done
 
 # Compile cover letters in the covers directory
 
@@ -27,8 +31,8 @@ if [[ -d covers ]]; then
     cd covers
     find . -name "*.tex" | while read -r texfile; do
         subfolder=$(dirname "$texfile")
-        latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir="$subfolder" "$texfile" -silent
-        latexmk -c -outdir="$subfolder" -silent
+        latexmk -g -pdf -interaction=nonstopmode -halt-on-error -outdir="$subfolder" "$texfile" -silent
+        latexmk -c -outdir="$subfolder" "$texfile" -silent
         echo "Compiled $texfile in $subfolder"
     done
     cd ..
