@@ -3,7 +3,7 @@
 
 % Fonts and formatting
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
+\usepackage{newtxtext,newtxmath}
 \usepackage{enumitem, titlesec}
 \setlist[itemize]{noitemsep, topsep=0pt}
 \titleformat{\section}{\bfseries\uppercase}{\thesection}{0em}{}[\titlerule]
@@ -33,49 +33,37 @@
 
 \begin{center}
     {\LARGE \textbf{Michael H. Gross}} \\
-    \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ \href{tel:+15204199061}{(520) 419--9061} \textbar\ 
+    Bay Area, CA \textbar\ \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ \href{tel:+15204199061}{(520) 419--9061} \textbar\ 
     \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar\ \href{https://github.com/MGross21}{github.com/MGross21}
 \end{center}
 
 \section*{Summary}
-Robotics engineer with expertise in controls, planning, perception, simulation and embedded systems. Experienced across the full mechatronics stack, ranging from low-level firmware and hardware interfaces to high-level libraries and frameworks.
-
-\section*{Experience}
-\textbf{Robotics Engineer} \hfill Jan 2026 --- Present \\
-\textit{Workr}, Mountain View, CA
+Robotics software engineer working up from firmware and hardware interfaces into real-time control and concurrent system design.\section*{Experience}
+\textbf{Robotics Engineer} \hfill Jan --- Sep 2026 \\
+\textit{Workr (NVIDIA Inception Member)}, Mountain View, CA
 \begin{itemize}
-\item Implemented custom python industrial arm control clients and c/c++ drivers for actuators and embedded systems
-\item Integrated state-of-the-art AI perception, pose estimation, motion planning models into edge inference deployments
-\item Applied VLM and segmentation models for agentic image self-inspection, improving post-training effectiveness
-\item Developed full stack, hardware agnostic robotic solution for high mix materials handling applications
-\item Deployed robotic solutions at customer sites, including on-site testing, user training, and ongoing customer support
+\item Architected the concurrent runtime as a multi-process, event-driven system over a custom Protobuf IPC transport and thread-safe MPSC event queue, each process governed by its own finite state machine (FSM) and independently restartable
+\item Built a lock-free real-time control loop running above 1 kHz in an isolated child process, streaming non-deterministic paths over a low-latency motion interface at sub-0.5 mm per-step accuracy
+\item Integrated GPU-accelerated trajectory optimization with dynamic collision-aware volumetric scene generation; benchmarked \textasciitilde100 ms faster than ABB's per-path native planner and lowered cycle times by 44\% through continuous path generation and chaining
+\item Owned the Temporal app orchestration layer coordinating closed-loop control, motion planning, and the robot interface; authored 46\% of a greenfield Python production codebase spanning 18 sub-packages and 8 microservices
+\item Sole owner of production deployment at 99.7\% uptime; developed end-to-end and demonstrated 6 customer and investor demos
 \end{itemize}
 \vspace{0.5em}
-\textbf{Graduate Research Assistant} \hfill Aug 2025 --- Dec 2025 \\
+\textbf{Graduate Research Assistant} \hfill Aug --- Dec 2025 \\
 \textit{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ
 \begin{itemize}
-  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API controlling industrial robotic arms such as UR, Vention, and Elephant Robotics; achieved around 15 ms latency and removed redundant platform-specific drivers
-  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital twin toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; supported reinforcement learning and reproducible closed-loop experiments
-  \item Integrated trajectory optimization, sensor fusion, and adaptive control into cohesive pipelines; demonstrated effectiveness on multi-robot coordination in cluttered and dynamic settings
+  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API controlling industrial robotic arms such as UR, Vention, and Elephant Robotics; 15 ms command round-trip latency, 5k+ downloads
+  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital twin toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; 9k+ downloads, supporting reinforcement learning and reproducible closed-loop experiments
   \item Implemented containerized CI/CD workflows that standardized benchmarking, reduced configuration overhead, and increased reliability across research deployments
 \end{itemize}
 \vspace{0.5em}
 \textbf{Research \& Development Intern} \hfill May --- Aug 2024 \\
 \textit{Precision Planting (An AGCO Company)}, Fargo, ND
 \begin{itemize}
-  \item Designed lab-based testing fixtures using Creo \& 3D printing to replicate extreme field usage for developmental sensors
-  \item Developed data-cleaning algorithms for optical seeder sensor field data; analysis showed 10\% lower detection variance than competitor products, projecting multi-million-dollar savings
+  \item Developed data-cleaning algorithms for optical seeder sensor field data; analysis showed 10\% lower detection variance than competitor products
   \item Integrated embedded sensors into the CAN bus with custom drivers, improving compatibility and future development
+  \item Designed lab test fixtures replicating extreme field conditions to validate developmental sensors within measurable environments
 \end{itemize}
-% \vspace{0.5em}
-% \textbf{Camp IHC}, Honesdale, PA \hfill Summers 2018 -- 2023 \\
-% \textit{Counselor-in-Training (CIT) Program Head Counselor}
-% \begin{itemize}
-%   \item Directed mentorship and leadership development for over 50 CITs, fostering team management and conflict resolution
-%   \item Coordinated and led multi-day programs for groups of 20-50 participants, managing logistics and scheduling
-%   \item Led counselor pre-season training sessions covering activity planning, camper management, and staff responsibilities
-% \end{itemize}
-
 \section*{Education}
 \textbf{Arizona State University}, Mesa, AZ \\
 \textbf{Robotics and Autonomous Systems}, \textit{M.S.} \hfill \textit{with Distinction} --- 4.0 GPA \\
@@ -86,11 +74,10 @@ Robotics engineer with expertise in controls, planning, perception, simulation a
 \begin{itemize}
   \item Built robotic arm digital twin for hazardous glovebox operations with computer vision, motion planning, and control
   \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion/limited visibility
-  \item Optimized path planning for confined workcells, improving accuracy and reliability in high-risk environments
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
 \begin{itemize}
-  \item Engineered wearable medical robotics system with IMU and gyroscopic sensors, Bluetooth Low Energy streaming, and interactive GUI; achieved less than 50 ms real-time sensor-to-actuator feedback loop for vibrotactile therapy exercises.
+  \item Engineered wearable medical robotics system with IMU sensors and BLE streaming; sub-50 ms sensor-to-actuator feedback loop for vibrotactile therapy
   \item Developed firmware and embedded systems control for responsive rehabilitation applications
 \end{itemize}
 \textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \textbar\ Arizona State University \hfill Jan --- May 2025
@@ -100,20 +87,16 @@ Robotics engineer with expertise in controls, planning, perception, simulation a
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/Robotic-Jumping-Frog}{Frog Gait Reproduction}} \textbar\ Arizona State University \hfill Aug --- Dec 2024
 \begin{itemize}
-  \item Developed a foldable bio-inspired robotic frog; modeled limb motion and optimized material parameters for locomotion.
+  \item Modeled limb kinematics and optimized material parameters to reproduce locomotion in a foldable bio-inspired robot
 \end{itemize}
 \textbf{\href{https://www.youtube.com/watch?v=i5I38tLkD6o}{Tilt-Up Window Automation}} \textbar\ Summit Automation \hfill Aug 2023 --- May 2024
 \begin{itemize}
   \item Developed 400 lb IoT device with linear actuators, embedded control, and custom PCB; delivered commercially
 \end{itemize}
-\textbf{\href{https://EGR314-Team205.github.io}{Smart Umbrella for Wheelchairs}} \textbar\ Arizona State University \hfill Jan --- May 2023
-\begin{itemize}
-  \item Designed a motorized canopy with real-time climate sensor control; implemented custom PCB and mounted housing
-\end{itemize}
 
 \section*{Skills}
-\textbf{Languages \& Frameworks:} Python, C/C++, MATLAB, Kotlin, Rust, ROS2, OpenCV, MuJoCo, Gazebo \\
-\textbf{Tools \& Systems:} Git, Docker, CI/CD, Linux (Ubuntu, NixOS), Embedded Systems, SPI, I2C, UART, PCB Design \\
-\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, Cadence, 3D Printing, CNC Machining, Laser Cutting, Soldering
+\textbf{Languages:} Python, Rust, C, MATLAB, Kotlin \\
+\textbf{Frameworks \& Tools:} ROS2, MuJoCo, Temporal, Protobuf, Docker, CI/CD, Git, Linux (Ubuntu, NixOS), CAN, SPI, I2C, UART \\
+\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, PCB Design (KiCad), 3D Printing, CNC Machining, Laser Cutting, Soldering
 
 \end{document}

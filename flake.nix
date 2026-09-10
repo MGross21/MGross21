@@ -19,6 +19,19 @@
                 scheme-basic
                 geometry
                 lm
+                newtx
+                fontaxes
+                xstring
+                xpatch
+                xkeyval
+                etoolbox
+                iftex
+                kvoptions
+                symbol
+                zapfding
+                txfonts
+                tex-gyre
+                tex-gyre-math
                 enumitem
                 titlesec
                 xcolor
