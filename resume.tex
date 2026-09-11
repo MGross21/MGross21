@@ -44,19 +44,19 @@ Robotics software engineer working up from firmware and hardware interfaces into
 \textbf{Robotics Engineer} \hfill Jan --- Sep 2026 \\
 \textit{Workr (NVIDIA Inception Member)}, Mountain View, CA
 \begin{itemize}
-\item Architected the concurrent runtime as a multi-process, event-driven system over a custom Protobuf IPC transport and thread-safe MPSC event queue, each process governed by its own finite state machine (FSM) and independently restartable
-\item Built a lock-free real-time control loop running above 1 kHz in an isolated child process, streaming non-deterministic paths over a low-latency motion interface at sub-0.5 mm per-step accuracy
+\item Architected the concurrent runtime as a multi-process, event-driven system over a custom Protobuf IPC transport and thread-safe MPSC event queue, each process governed by its own finite state machine (FSM), fault-isolated and independently restartable
+\item Built a lock-free real-time control loop above 1 kHz, streaming non-deterministic paths at sub-0.5 mm per-step positional accuracy
 \item Integrated GPU-accelerated trajectory optimization with dynamic collision-aware volumetric scene generation; benchmarked \textasciitilde100 ms faster than ABB's per-path native planner and lowered cycle times by 44\% through continuous path generation and chaining
-\item Owned the Temporal app orchestration layer coordinating closed-loop control, motion planning, and the robot interface; authored 46\% of a greenfield Python production codebase spanning 18 sub-packages and 8 microservices
-\item Sole owner of production deployment at 99.7\% uptime; developed end-to-end and demonstrated 6 customer and investor demos
+\item Led the Temporal app orchestration layer coordinating closed-loop control, motion planning, and the robot control interface; authored 46\% of a greenfield Python production codebase spanning 18 sub-packages and 8 independently deployed microservices
+\item Deployed and operated the production stack as sole owner at 99.7\% uptime, building the remote debugging and developer tooling that cut on-site production fault diagnosis from hours to minutes; delivered 6 customer and investor demonstrations end-to-end
 \end{itemize}
 \vspace{0.5em}
 \textbf{Graduate Research Assistant} \hfill Aug 2024 --- Aug 2025 \\
 \textit{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ
 \begin{itemize}
-  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API controlling industrial robotic arms such as UR, Vention, and Elephant Robotics; 15 ms command round-trip latency, 5k+ downloads
-  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital twin toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; 9k+ downloads, supporting reinforcement learning and reproducible closed-loop experiments
-  \item Implemented containerized CI/CD workflows that standardized benchmarking, eliminated hours of configuration overhead, and increased reliability across research deployments
+  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API for UR, Vention, and Elephant Robotics arms; 15 ms round-trip, 5k+ downloads
+  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital-twin simulation toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; 9k+ PyPI downloads, supporting reinforcement learning and reproducible closed-loop robot experiments
+  \item Containerized CI/CD workflows that standardized benchmarking and eliminated hours of per-machine configuration overhead
 \end{itemize}
 \vspace{0.5em}
 \textbf{Research \& Development Intern} \hfill May --- Aug 2024 \\
@@ -72,10 +72,10 @@ Robotics software engineer working up from firmware and hardware interfaces into
 \textbf{Robotics Engineering}, \textit{B.S.E.}; Minor in Applied Mathematics \hfill \textit{Summa Cum Laude} --- 4.0 GPA
 
 \section*{Projects}
-\textbf{\href{https://github.com/MGross21/glovebox-digitaltwin}{Robotic Glovebox Digital Twin}} \textbar\ Los Alamos National Laboratory \hfill Aug 2024 --- Aug 2025
+\textbf{\href{https://github.com/MGross21/glovebox-digitaltwin}{Robotic Glovebox Digital Twin}} \textbar\ Los Alamos National Laboratory \textbar\ M.S. Thesis \hfill Aug 2024 --- Aug 2025
 \begin{itemize}
-  \item Built robotic arm digital twin for hazardous glovebox operations with computer vision, motion planning, and control
-  \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion/limited visibility
+  \item Built robotic arm digital twin for hazardous, confined glovebox workcells with computer vision, motion planning, and control
+  \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion and limited visibility
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
 \begin{itemize}
@@ -84,16 +84,20 @@ Robotics software engineer working up from firmware and hardware interfaces into
 \textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \textbar\ Arizona State University \hfill Jan --- May 2025
 \begin{itemize}
   \item Built ROS2 nodes for SLAM, computer vision detection, sensor fusion, and localization to enable autonomous navigation
-  \item Designed and tested policy models and motion planning for pursuit-evasion in cluttered environments
+  \item Designed and tested policy models and motion planning for multi-agent pursuit-evasion in cluttered, dynamic environments
 \end{itemize}
 \textbf{\href{https://github.com/MGross21/Robotic-Jumping-Frog}{Frog Gait Reproduction}} \textbar\ Arizona State University \hfill Aug --- Dec 2024
 \begin{itemize}
-  \item Modeled limb kinematics and optimized material parameters to reproduce locomotion in a foldable bio-inspired robot
+  \item Modeled five-bar limb kinematics and optimized material parameters in MuJoCo to reproduce gait in a foldable bio-inspired robot
 \end{itemize}
 \textbf{\href{https://www.youtube.com/watch?v=i5I38tLkD6o}{Tilt-Up Window Automation}} \textbar\ Summit Automation \hfill Aug 2023 --- May 2024
 \begin{itemize}
-  \item Developed 400 lb IoT device with linear actuators, embedded control, and custom PCB; delivered commercially
+  \item Developed 400 lb IoT device with linear actuators, embedded control, voice recognition, and custom PCB; delivered commercially
 \end{itemize}
+
+\section*{Leadership}
+\textbf{Head Programming Mentor}, FIRST Tech Challenge --- Pioneer Robotics, Tucson, AZ \hfill Aug 2022 --- Present \\
+Teach Kalman-filter sensor fusion, fiducial detection, localization, and path planning across a 20+ person club; founding member
 
 \section*{Skills}
 \textbf{Languages:} Python, Rust, C, MATLAB, Kotlin \\
