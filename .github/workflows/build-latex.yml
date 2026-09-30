@@ -3,8 +3,8 @@ name: Compile and Deploy PDF
 on:
   push:
     paths:
-      - '**/*.tex' # Trigger on changes to any .tex files
-      - '**/*.yml' # Trigger on changes to any .yml files
+      - '**/*.tex'
+      - '**/*.yml'
 
 permissions:
   contents: write
@@ -24,9 +24,9 @@ jobs:
             resume.tex
             cv.tex
           args: -pdf -interaction=nonstopmode -halt-on-error -outdir=output
+          post_compile: latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=output -jobname=resume-inverted resume.tex
 
       - name: Keep only PDFs
-        # latex-action runs docker as root, so output/ is root-owned
         run: |
           sudo chown -R "$(id -u):$(id -g)" output
           find output -type f ! -name '*.pdf' -delete

@@ -1,115 +1,188 @@
 \documentclass[10pt]{article}
-\usepackage[margin=0.7in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{enumitem, hyperref, titlesec, multicol}
+\usepackage[margin=0.6in]{geometry}
+
+% Fonts and formatting
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem, titlesec, multicol}
+\setlist[itemize]{noitemsep, topsep=0pt}
 \titleformat{\section}{\bfseries\uppercase}{\thesection}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{0.5em}{0.5em}
-\setlist{noitemsep,topsep=0pt}
+
+% Hyperlinks (modern setup)
+\usepackage{xcolor}
+\definecolor{linkblue}{HTML}{0B63CE}
+\usepackage[colorlinks]{hyperref}   % load hyperref first
+\hypersetup{
+  pdftitle   ={Michael H. Gross — Robotics Researcher \& Software Engineer},
+  pdfauthor  ={Michael H. Gross},
+  pdfsubject ={Robotics research, software development, embedded systems},
+  pdfkeywords={Robotics, Research, Software Engineer, Simulation, Embedded Systems, Control, Computer Vision},
+  colorlinks=true,
+  linkcolor=linkblue,
+  urlcolor=linkblue,
+  citecolor=linkblue,
+  pdfborder={0 0 0}
+}
+
+\urlstyle{same}
+\pagestyle{empty}
 
 \begin{document}
+\pdfgentounicode=1
 
-\centerline{\LARGE\textbf{Michael Gross}}
-\centerline{\href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar{} (520) 419-9061 \textbar{} Gilbert, AZ \textbar{} \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar{} \href{https://github.com/MGross21}{github.com/MGross21}}
+\begin{center}
+    {\LARGE \textbf{Michael H. Gross}} \\
+    \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ \href{tel:+15204199061}{(520) 419--9061} \textbar\
+    \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar\ \href{https://github.com/MGross21}{github.com/MGross21}
+\end{center}
 
-\vspace{-0.5em}
 \section*{Research Interests}
-\vspace{-0.7em}
+\vspace{-0.3em}
 \begin{multicols}{2}
   \begin{itemize}[leftmargin=1.2em]
     \item Autonomous Exploration Systems
     \item Sensor Fusion and Localization
     \item Reconfigurable and Multi-Robotic Systems
-    \item Physics Simulation
+    \item Physics-Based Simulation
     \item Control Systems Design and Optimization
-    \item Dynamic Motion Planning
+    \item Dynamic Motion Planning and Trajectory Generation
+    \item Computer Vision and Object Detection
+    \item Digital Twin Development
   \end{itemize}
 \end{multicols}
-\vspace{-0.7em}
+\vspace{-0.5em}
 
 \section*{Education}
 \textbf{Arizona State University}, Mesa, AZ\\
-M.S. in Robotics and Autonomous Systems \hfill Aug 2024 -- Present\\
-4+1 Accelerated Program; Thesis Advisor: Dr. Binil Starly
+\textbf{Robotics and Autonomous Systems}, \textit{M.S.} \hfill Aug 2024 --- May 2025\\
+4+1 Accelerated Program, \textit{with Distinction} --- 4.0 GPA\\
+Thesis: Digital Twin Development for Robotic Glovebox Operations\\
+Advisor: Dr.\ Binil Starly \\
 
-B.S.E. in Robotics Engineering, Minor in Applied Mathematics \hfill Aug 2020 -- May 2024\\
-\textit{Summa Cum Laude}
+\textbf{Robotics Engineering}, \textit{B.S.E.}; Minor in Applied Mathematics \hfill Aug 2020 --- May 2024\\
+\textit{Summa Cum Laude} --- 4.0 GPA
 
 \section*{Research Experience}
-\textbf{Robotic Agnostic Digital Twin with Camera-Based Validation} \hfill Aug 2024 -- Present\\
-\hspace*{2em}Robotic arm sim, CV, path planning, pose correction\\
-\hspace*{2em}Sponsor: Los Alamos National Laboratory\\
-\hspace*{2em}Advisor: Dr. Binil Starly \\
-\textbf{Image Edge Mapping for Object Recognition} \hfill Aug -- Dec 2022\\
-\hspace*{2em}Image datasets, CNN training, accuracy benchmarking\\Advisor: Dr. Michelle Zandieh
+\textbf{ASU Robotics and Autonomous Systems Lab}, Mesa, AZ \hfill Aug 2024 --- July 2025 \\
+\textit{Graduate Research Assistant}
+\begin{itemize}
+  \item Developed \href{https://github.com/MGross21/armctl}{armctl}, a vendor-agnostic Python API controlling industrial robotic arms such as UR, Vention, and Elephant Robotics; achieved around 15 ms latency and removed redundant platform-specific drivers
+  \item Created \href{https://github.com/MGross21/mujoco-toolbox}{mujoco-toolbox}, a MuJoCo-based digital twin toolkit with XML/URDF merging, inverse kinematics, and trajectory generation; supported reinforcement learning and reproducible closed-loop experiments
+  \item Integrated trajectory optimization, sensor fusion, and adaptive control into cohesive pipelines; demonstrated effectiveness on multi-robot coordination in cluttered and dynamic settings
+  \item Implemented containerized CI/CD workflows that standardized benchmarking, reduced configuration overhead, and increased reliability across research deployments
+\end{itemize}
+
+\textbf{Robotic Glovebox Digital Twin} \textbar\ Los Alamos National Laboratory \hfill Aug 2024 --- Jul 2025
+\begin{itemize}
+  \item Built robotic arm digital twin for hazardous glovebox operations with computer vision, motion planning, and control
+  \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion/limited visibility
+  \item Optimized path planning for confined workcells, improving accuracy and reliability in high-risk environments
+\end{itemize}
+
+\textbf{Image Edge Mapping for Object Recognition} \hfill Aug --- Dec 2022\\
+Evaluated edge detection operators and trained CNNs on 60k+ images for autonomous vehicle detection in MATLAB\\
+Advisor: Dr.\ Michelle Zandieh
 
 \section*{Professional Experience}
-\textbf{R\&D Intern}, Precision Planting (AGCO), Fargo, ND \hfill May -- Aug 2024\\
-\hspace*{2em}Embedded systems, field testing, data collection and analysis\\
-\textbf{Head Counselor}, Camp IHC \hfill Summers 2018 -- 2023\\
-\hspace*{2em}Logistics coordination, training facilitation, mentorship
+\textbf{Precision Planting (An AGCO Company)}, Fargo, ND \hfill May --- Aug 2024 \\
+\textit{Research \& Development Intern}
+\begin{itemize}
+  \item Designed lab-based testing fixtures using Creo \& 3D printing to replicate extreme field usage for developmental sensors
+  \item Developed data-cleaning algorithms for optical seeder sensor field data; analysis showed 10\% lower detection variance than competitor products, projecting multi-million-dollar savings
+  \item Integrated embedded sensors into the CAN bus with custom drivers, improving compatibility and future development
+\end{itemize}
 
-\section*{Projects}
-\textbf{MuJoCo Toolbox (GitHub)} \hfill Aug 2024 -- Present\\
-\hspace*{2em}Published Python package for simulation wrapping and automation
-\\
-\textbf{Turtlebot4 Predator-Prey Model} \hfill Jan 2025 -- Present\\
-\hspace*{2em}ROS2 development, SLAM, CV, sensor fusion, algorithm design
-\\
-\textbf{Foldable Robotics Gait Reproduction} \hfill Aug -- Dec 2024\\
-\hspace*{2em}MuJoCo simulations, limb-motion studies, material modeling
-\\
-\textbf{Tilt-Up Window Automation} \hfill Aug 2023 -- May 2024\\
-\hspace*{2em}Voice recognition, embedded design, capstone with Summit Automation
-\\
-\textbf{Weather Sensing Umbrella} \hfill Jan -- May 2023\\
-\hspace*{2em}2DOF control system, smart sensors, PCB design
-\\
-\textbf{Fleet Science Museum SCRAM Robot} \hfill Aug -- Dec 2022\\
-\hspace*{2em}Interactive education exhibit using SCRAM mechanisms
-\\
-\textbf{Reverse-Engineered Regenerative Braking} \hfill Jan -- May 2022\\
-\hspace*{2em}Motorized mass system, microcontroller logic, sensory feedback
-\\
-\textbf{Parking Sensor Retrofitting} \hfill Aug -- Dec 2021\\
-\hspace*{2em}Optical sensors for individual spot detection and signage
-\\
-\textbf{Automated Boom Arm Sprayer} \hfill Jan -- May 2021\\
-\hspace*{2em}Ultrasonic ground detection, FSM logic, motor actuation
+\section*{Selected Projects}
+\textbf{\href{https://github.com/MGross21/mujoco-toolbox}{MuJoCo Toolbox}} \textbar\ Published Python Package \hfill Aug 2024 --- Present
+\begin{itemize}
+  \item Developed comprehensive MuJoCo simulation toolkit streamlining concept-to-simulation workflow for RL, digital twins, and education
+  \item Implemented XML/URDF merging, inverse kinematics, trajectory generation, and automated testing frameworks
+  \item Achieved significant adoption with 1000+ downloads, demonstrating impact in robotics simulation community
+\end{itemize}
+
+\textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \textbar\ Arizona State University \hfill Jan --- May 2025
+\begin{itemize}
+  \item Built ROS2 nodes for SLAM, computer vision detection, sensor fusion, and localization to enable autonomous navigation
+  \item Designed and tested policy models and motion planning for pursuit-evasion in cluttered environments
+\end{itemize}
+
+\textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
+\begin{itemize}
+  \item Engineered wearable medical robotics system with IMU and gyroscopic sensors, Bluetooth Low Energy streaming, and interactive GUI
+  \item Achieved less than 50 ms real-time sensor-to-actuator feedback loop for vibrotactile therapy exercises
+\end{itemize}
+
+\textbf{\href{https://github.com/MGross21/Robotic-Jumping-Frog}{Frog Gait Reproduction}} \textbar\ Arizona State University \hfill Aug --- Dec 2024
+\begin{itemize}
+  \item Developed foldable bio-inspired robotic frog using five-bar linkage mechanism with material parameter optimization
+  \item Applied non-linear optimization using MuJoCo simulation tools for locomotion performance enhancement
+\end{itemize}
+
+\textbf{\href{https://www.youtube.com/watch?v=i5I38tLkD6o}{Tilt-Up Window Automation}} \textbar\ Summit Automation \hfill Aug 2023 --- May 2024
+\begin{itemize}
+  \item Developed 400 lb IoT device with linear actuators, embedded control, and custom PCB; delivered commercially
+  \item Integrated voice recognition, embedded design, and remote monitoring capabilities
+\end{itemize}
+
+\textbf{\href{https://EGR314-Team205.github.io}{Smart Umbrella for Wheelchairs}} \textbar\ Arizona State University \hfill Jan --- May 2023
+\begin{itemize}
+  \item Designed motorized canopy with real-time climate sensor control and 2DOF control system
+  \item Implemented custom PCB design and integrated smart sensors for autonomous weather response
+\end{itemize}
 
 \section*{Leadership and Activities}
-\textbf{FTC Mentor}, Catalina Foothills HS \hfill Aug 2022 -- Present\\
-\hspace*{2em}Sensor fusion, localization, multi-threaded control
-\\
-\textbf{Design \& Manufacturing Challenge (MR+A)} \hfill Oct 2024 -- Present\\
-\hspace*{2em}Digital manufacturing innovation competition
-\\
-\textbf{FLL Mentor/Volunteer} \hfill Aug 2015 -- Present\\
-\hspace*{2em}STEM mentorship, event volunteering
-\\
-\textbf{ASU Esports: Team Manager, Social Media Lead} \hfill Aug 2020 -- Present
-\\
-\textbf{Principled Innovation Academy} \hfill Feb -- May 2024\\
-Equity-based problem solving
-\\
-\textbf{Machine Learning Club} \hfill Jan -- Dec 2022
+\textbf{FIRST Tech Challenge (FTC) -- Pioneer Robotics Club}, Tucson, AZ \hfill Aug 2022 --- Present \\
+\textit{Head Programming Mentor, Original Founding Member}
+\begin{itemize}
+  \item Taught sensor fusion, Kalman filtering, world-centric localization, multithreading, and path planning for automation
+  \item Mentored student teams in advanced robotics concepts including computer vision and autonomous navigation
+\end{itemize}
+
+\textbf{Design \& Manufacturing Challenge (MR+A)} \hfill Oct 2024 --- Present\\
+Digital manufacturing innovation competition with focus on advanced manufacturing techniques
+
+\textbf{FLL Mentor/Volunteer} \hfill Aug 2015 --- Present\\
+Long-term commitment to STEM mentorship and event volunteering in robotics education
+
+\textbf{ASU Esports: Team Manager, Social Media Lead} \hfill Aug 2020 --- Present \\
+Leadership role in competitive gaming organization with team coordination and marketing responsibilities
 
 \section*{Honors and Awards}
-\textbf{Accelerated Master's Award} \hfill AY 2024 -- 25\\
-\textbf{Fulton Graduate Scholarship} \hfill AY 2024 -- 25\\
-\textbf{Dean's List, ASU Ira A. Fulton School of Engineering} \hfill Fall 2020 -- Spring 2024
+\textbf{\href{https://www.linkedin.com/posts/mhgross_asuengineering-design-robotics-activity-7324315472491855873-Gn_C}{1st Place -- Robotics \& Art Competition}} \hfill AY 2024---25 \\
+ASU Ira A. Fulton Schools of Engineering recognition for innovative robotics design
+
+\textbf{Graduate Scholarship} \hfill AY 2024---25 \\
+ASU Ira A. Fulton Schools of Engineering merit-based funding for graduate studies
+
+\textbf{Dean's List} \hfill Fall 2020 --- Spring 2024 \\
+ASU Ira A. Fulton School of Engineering academic excellence recognition
+
+\section*{Technical Skills}
+\textbf{Languages \& Frameworks:} Python, C/C++, Rust, MATLAB, ROS2, OpenCV, MuJoCo, Gazebo \\
+\textbf{Tools \& Systems:} Git, Docker, CI/CD, Linux (Ubuntu, Arch), Embedded Systems, SPI, I2C, UART \\
+\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, KiCad, Cadence, 3D Printing, CNC Machining, Laser Cutting \\
+\textbf{Robotics Hardware:} UR Cobots, myCobot, Vention MachineMotion, Elephant Robotics
 
 \section*{Certifications}
-\textbf{UR Cobot eSeries (2023):} Core Track, Pro Track\\
-\textbf{MATLAB (2022):} Control Design, DL, ML, Simscape, Stateflow, Image/Signal Processing\\
-\textbf{American Red Cross (2018 -- 2022):} Lifeguarding, CPR, AED
+\textbf{UR Cobot eSeries (2023):} Core Track, Pro Track --- Industrial robot programming and safety \\
+\textbf{MATLAB (2022):} Control Design, Deep Learning, Machine Learning, Simscape, Image/Signal Processing
 
-\section*{Skills}
-\textbf{Programming:} Python, C, C++, MATLAB, Simulink, Arduino, Java\\
-\textbf{Engineering Software:} ROS2, MuJoCo, Gazebo, Linux, KiCad, Cadence, Inventor, Creo, SolidWorks\\
-\textbf{Robotics Hardware:} UR Cobot, myCobot\\
-\textbf{Fabrication:} 3D Printing, Laser Cutting, Power Tools
+\section*{Publications \& Media}
+\textbf{Software Packages:}
+\begin{itemize}
+  \item \href{https://pypi.org/project/mujoco-toolbox/}{mujoco-toolbox} --- MuJoCo simulation toolkit with 1000+ downloads
+  \item \href{https://pypi.org/project/armctl/}{armctl} --- Unified robotic arm control API for multiple OEMs
+  \item \href{https://pypi.org/project/spikeble/}{spikeble} --- Bluetooth Low Energy interface for robotics applications
+\end{itemize}
 
-\section*{Media}
-\href{https://theeagleangle.blogspot.com/2014/12/foothills-lego-robotics-team-wins-azfll.html}{AZFLL State Competition Coverage, 2014}\\
-\href{https://www.linkedin.com/posts/school-of-manufacturing-systems-and-networks_asuengineering-design-robotics-activity-7324208506419453957-uM9B}{ASU Dream Competition Winner, 2025}
+\textbf{Media Coverage:}
+\begin{itemize}
+  \item \href{https://www.linkedin.com/posts/school-of-manufacturing-systems-and-networks_asuengineering-design-robotics-activity-7324208506419453957-uM9B}{ASU Dream Competition Winner Coverage, 2025}
+  \item \href{https://theeagleangle.blogspot.com/2014/12/foothills-lego-robotics-team-wins-azfll.html}{AZFLL State Competition Coverage, 2014}
+\end{itemize}
+
+\section*{Summary}
+Robotics researcher and software engineer with expertise in perception, planning, control, and embedded systems. Experienced across the full mechatronics stack, from low-level firmware and hardware interfaces to high-level libraries and frameworks. Dedicated to delivering modular and scalable solutions that advance robotics in research, product development, and deployment. Strong record of open-source contribution and practical application of research findings.
+
 \end{document}

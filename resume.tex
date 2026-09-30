@@ -1,5 +1,5 @@
 \documentclass[10pt]{article}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[letterpaper,portrait,margin=0.5in]{geometry}
 
 % Fonts and formatting
 \usepackage[T1]{fontenc}
@@ -12,12 +12,12 @@
 % Hyperlinks (modern setup)
 \usepackage{xcolor}
 \definecolor{linkblue}{HTML}{0B63CE}
-\usepackage[colorlinks]{hyperref}   % load hyperref first
+\usepackage[colorlinks]{hyperref}
 \hypersetup{
   pdftitle   ={Michael H. Gross --- Resume},
   pdfauthor  ={Michael H. Gross},
   pdfsubject={Robotics software engineering, simulation, embedded systems, perception, planning, and control},
-  pdfkeywords={Robotics, Software Engineer, Simulation, Embedded Systems, Control, Computer Vision, Perception, Planning, Mechatronics, ROS2, Python, Machine Learning, Digital Twin},
+  pdfkeywords={Robotics, Software Engineer, Simulation, Embedded Systems, Control, Computer Vision, Perception, Planning, Grasping, Manipulation, Mechatronics, ROS2, Python, Machine Learning, Digital Twin},
   colorlinks=true,
   linkcolor=linkblue,
   urlcolor=linkblue,
@@ -25,20 +25,24 @@
   pdfborder={0 0 0}
 }
 
+\ifnum\pdfstrcmp{\jobname}{resume-inverted}=0
+  \definecolor{linkblue}{HTML}{6CB4FF}
+  \pagecolor{black}
+  \AtBeginDocument{\color{white}}
+\fi
+
 \urlstyle{same}
 \pagestyle{empty}
 
 \begin{document}
 \pdfgentounicode=1
+\pdfpageattr{/Rotate 0}
 
 \begin{center}
     {\LARGE \textbf{Michael H. Gross}} \\
     Bay Area, CA \textbar\ \href{mailto:mgrossofficial@gmail.com}{mgrossofficial@gmail.com} \textbar\ \href{tel:+15204199061}{(520) 419--9061} \textbar\
     \href{https://www.linkedin.com/in/mhgross}{linkedin.com/in/mhgross} \textbar\ \href{https://github.com/MGross21}{github.com/MGross21}
 \end{center}
-
-\section*{Summary}
-Robotics software engineer spanning firmware and hardware interfaces through real-time control to concurrent production systems.
 
 \section*{Experience}
 \textbf{Robotics Engineer} \hfill Jan --- Sep 2026 \\
@@ -77,10 +81,6 @@ Robotics software engineer spanning firmware and hardware interfaces through rea
   \item Built robotic arm digital twin for hazardous, confined glovebox workcells with computer vision, motion planning, and control
   \item Applied deep learning detection with fiducial marker sensor fusion for robust tracking under occlusion and limited visibility
 \end{itemize}
-\textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
-\begin{itemize}
-  \item Engineered wearable medical robotics system with IMU sensors and BLE streaming; sub-50 ms sensor-to-actuator feedback loop for vibrotactile therapy. Developed embedded firmware and a responsive client-side rehabilitation application built on tk-engine
-\end{itemize}
 \textbf{\href{https://ASU-RAS598-2025-S-TEAM02.github.io}{Turtlebot4 Predator-Prey Model}} \textbar\ Arizona State University \hfill Jan --- May 2025
 \begin{itemize}
   \item Built ROS2 nodes for SLAM, computer vision detection, sensor fusion, and localization to enable autonomous navigation
@@ -89,6 +89,10 @@ Robotics software engineer spanning firmware and hardware interfaces through rea
 \textbf{\href{https://github.com/MGross21/Robotic-Jumping-Frog}{Frog Gait Reproduction}} \textbar\ Arizona State University \hfill Aug --- Dec 2024
 \begin{itemize}
   \item Modeled five-bar limb kinematics and optimized material parameters in MuJoCo to reproduce gait in a foldable bio-inspired robot
+\end{itemize}
+\textbf{\href{https://github.com/MGross21/syncstride-wearable}{Parkinson's Rehabilitation Device}} \textbar\ Barrow Neurological Institute \hfill Jan --- May 2025
+\begin{itemize}
+  \item Engineered wearable medical robotics system with IMU sensors and BLE streaming; sub-50 ms sensor-to-actuator feedback loop for vibrotactile therapy. Developed embedded firmware and a responsive client-side rehabilitation application built on tk-engine
 \end{itemize}
 \textbf{\href{https://www.youtube.com/watch?v=i5I38tLkD6o}{Tilt-Up Window Automation}} \textbar\ Summit Automation \hfill Aug 2023 --- May 2024
 \begin{itemize}
@@ -100,8 +104,10 @@ Robotics software engineer spanning firmware and hardware interfaces through rea
 Teach Kalman-filter sensor fusion, fiducial detection, localization, and path planning across a 20+ person club; founding member
 
 \section*{Skills}
-\textbf{Languages:} Python, Rust, C/C++, MATLAB, Kotlin \\
-\textbf{Frameworks \& Tools:} ROS2, MuJoCo, Temporal, Protobuf, Docker, CI/CD, Git, Linux (Ubuntu, NixOS), CAN, SPI, I2C, UART \\
-\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, PCB Design (KiCad), 3D Printing, CNC Machining, Laser Cutting, Soldering
+\textbf{Languages \& Protocols:} Python, C/C++, Rust, MATLAB, CAN, SPI, I2C, UART \\
+\textbf{Frameworks \& Tools:} ROS2, MuJoCo, Gazebo, OpenCV, Foxglove, Temporal, Protobuf, Docker, CI/CD, Linux (Ubuntu, NixOS) \\
+\textbf{CAD \& Fabrication:} SolidWorks, Fusion 360, PCB Design (KiCad, Cadence), 3D Printing, CNC Machining, Laser Cutting \\
+\textbf{Robotics Hardware:} ABB, FANUC, UR Cobots, Vention MachineMotion, Elephant Robotics \\
+\textbf{Certifications:} UR Cobot eSeries (Core \& Pro Track); MATLAB Control Design, Simulink/Simscape, Deep Learning, Signal Processing
 
 \end{document}
